@@ -1,0 +1,12 @@
+{% extends is_mainsubpage|yesno:"empty.html,exception_base.html" %}
+{% load static %}
+
+{% block title %}{{ block.super }} > Something went wrong{% endblock title %}
+
+{% block content %}
+<div class="{% if not is_mainsubpage %}wrap-centered{% endif %} text-white">
+    <h1>Uh, something went wrong</h1>
+    <h3>Don't worry, it's not you. We are fixing it now.</h3>
+    <button class="btn btn-yellow text-dark small" onclick="window.history.back()">Go Back</button>
+</div>
+{% endblock content %}

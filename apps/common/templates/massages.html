@@ -1,0 +1,14 @@
+{% load common_tags %}
+<script type="text/javascript">
+    $(document).ready(function(){
+        var message_types = JSON.parse('{% get_messages_level_json %}');
+
+        {% for message in messages %}
+            {% if message.level == DEFAULT_MESSAGE_LEVELS.INFO %}
+            noty({timeout:false, text: '{{ message }}', type: message_types[{{ message.level }}]});
+            {% else %}
+            noty({timeout:2000, text: '{{ message }}', type: message_types[{{ message.level }}]});
+            {% endif %}
+        {% endfor %}
+    });
+</script>

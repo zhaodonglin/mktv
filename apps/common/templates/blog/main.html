@@ -1,0 +1,58 @@
+{% extends 'blog/base.html' %}
+{% load thumbnail %}
+{% load blog_tags %}
+
+{% block wrapper_class %}
+    {{ block.super }}
+{% endblock %}
+
+{% block content %}
+    <section id="featured-posts">
+        <div class="container">
+            <div class="slides owl-carousel">
+                {% for item in feature_posts %}
+                    <div class="featured-item-wrap">
+                        <div class="featured-item">
+                            <a href="{{ item.get_single_page_url }}">
+                                <div class="item-image">
+                                    <img src="{{ item.main_thumbnail_url }}" alt="Cannot load the image">
+                                </div>
+                                <div class="item-info">
+                                    <div class="title">
+                                        {{ item.name }}
+                                    </div>
+                                    <div class="action">
+                                        Read more <span class="icon-view"></span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        {% if item %}
+                            <div class="date-post">Posted on {{ item.time_stamp }}</div>
+                        {% endif %}
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
+    <section id="categories-wrap">
+        <div class="container">
+            <div class="list-categories">
+                {% display_categories %}
+            </div>
+        </div>
+    </section>
+
+    <section id="posts-wrap">
+        <div class="container">
+            <div class="InfiniteScroll"
+                 data-url="{% url 'blog:main' %}"
+                 data-number_pages="{{ paginator.num_pages }}"
+                 data-loaded_pages="1"
+                 data-append_el=".item">
+                {% include 'blog/main_list_ajax.html' %}
+            </div>
+        </div>
+    </section>
+{% endblock content %}

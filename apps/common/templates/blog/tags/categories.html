@@ -1,0 +1,11 @@
+{% load static %}
+
+{% for one_category in categories %}
+    <div class="{% if category == one_category %} active {% endif %} category-item">
+        <a href="{{ one_category.get_single_page_url }}">
+            <img class="d-flex mx-auto" src="{% static one_category.get_img %}" alt="Cannot load the image">
+            <span>{{ one_category }}</span>
+        </a>
+    </div>
+{% endfor %}
+

@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block body_class %}
+    {{ block.super }}
+{% endblock body_class %}
+
+{% block title %}{{ block.super }}{% endblock title %}
+
+{% block css %}
+    {{ block.super }}
+
+{% endblock css %}
+
+{% block js %}
+    {{ block.super }}
+
+
+    {% if server_type != "DEV" %}
+    <script type="text/javascript" src="{% static 'js/production/main.min.js' %}?t=200601"></script>
+    {% else %}
+
+    <!--Libraries-->
+    <script type="text/javascript" src="{% static 'js/lib/jquery.jplayer.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/lib/jplayer.playlist.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/infinite-scroll.pkgd.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/sortable.min.js' %}"></script>
+
+    <!--Common scripts-->
+    <script type="text/javascript" src="{% static 'js/common/comments-component.js' %}"></script>
+
+    <!--Blogs scripts-->
+    <script src="{% static 'js/blog/blog.js' %}"></script>
+    <script src="{% static 'js/blog/blog-detail.js' %}"></script>
+    <script src="{% static 'js/blog/blog-list.js' %}"></script>
+
+    <!--Main Page scripts-->
+    <script type="text/javascript" src="{% static 'js/common/header-component.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/main/main-config.js' %}?t=200228"></script>
+    <script type="text/javascript" src="{% static 'js/main/main-view.js' %}?t=200228"></script>
+    <script type="text/javascript" src="{% static 'js/main/main-controller.js' %}?t=200228"></script>
+
+    {% endif %}
+
+{% endblock js %}
+
+{% block header %}
+    {{ block.super }}
+{% endblock header %}
+
+{% block modals %}
+    {{ block.super }}
+{% endblock modals %}

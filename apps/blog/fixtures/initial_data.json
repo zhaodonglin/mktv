@@ -1,0 +1,1109 @@
+[
+{
+  "model": "blog.category",
+  "pk": 1,
+  "fields": {
+    "name": "Latest News",
+    "slug": "latest-news",
+    "thumbnail": ""
+  }
+},
+{
+  "model": "blog.category",
+  "pk": 3,
+  "fields": {
+    "name": "Teachers and Parents",
+    "slug": "teachers",
+    "thumbnail": ""
+  }
+},
+{
+  "model": "blog.category",
+  "pk": 4,
+  "fields": {
+    "name": "Kids Work",
+    "slug": "kids-work",
+    "thumbnail": ""
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "name": "We Launched!",
+    "category": 1,
+    "user_name": "Muslim Kids TV",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/e4fb8ca9.jpg",
+    "short_description": "All Praise and Thanks is due to Allah",
+    "text": "<h4 class=\"article-title\">Welcome to the Launch of Muslim Kids TV</h4>\r\n\r\n<p>All praise is due to Allah Most High for allowing us this opportunity to bring this project forward to the world. Many thousands of hours have gone into making this site from many, many different people around the world. We would like to thank all of you for making it happen.</p>\r\n\r\n<p>First and foremost this site is for children. Hey Kids! this site is for you!!!</p>\r\n\r\n<p>Explore it. Create stuff for it. And learn about your brothers and sisters around the world.</p>\r\n\r\n<p>Let us know what you would like to see on the site. What kind of videos and games do you like? Do you have a great idea for a Create and Share challenge - let us know and we can post it on the site.</p>\r\n\r\n<p>We love to hear from you.</p>\r\n\r\n<p>Muslim Kids TV team!</p>\r\n",
+    "thumbnail": "c4ca4238a0b923820dcc509a6f75849b/f2dd38b7.png",
+    "time_stamp": "2014-02-01T17:52:52Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "name": "Are you an aspiring writer?",
+    "category": 1,
+    "user_name": "Joe",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/1a723d35.jpg",
+    "short_description": "If you love communicating to children...",
+    "text": "<p>MuslimKids.TV is all about making children smile. InshaAllah through working together we can create&nbsp;the best possible online expereince for our children. This site is a place children everywhere can learn and share and have fun while doing it.&nbsp;</p>\r\n\r\n<p>If you share these same values and if you love to write, drop us a line.</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+    "thumbnail": "eccbc87e4b5ce2fe28308fd9f2a7baf3/8aeeda24.png",
+    "time_stamp": "2014-01-17T01:17:29Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "name": "To Our Parents",
+    "category": 3,
+    "user_name": "Michael",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/2de661e7.jpg",
+    "short_description": "What we are all about...",
+    "text": "<article class=\"featured-article\">\r\n<article class=\"featured-article\">\r\n<p>Al&#39;hamdullilah, MuslimKids.TV is finally seeing the light of day. We would like to welcome all of you.</p>\r\n\r\n<p>We are parents like you, blessed with four children - our first two entering the teen years - yikes!</p>\r\n\r\n<h4 class=\"article-title\">Background</h4>\r\n</article>\r\n</article>\r\n\r\n<p>Our love for producing media for Muslim children started roughly in 2007. Both myself and my wife, who most often is in the drivers seat, are converts to Islam. Al&#39;hamdulillah we are no longer children in the religion - more like cranky teenagers. Over the last two&nbsp;dacades as Muslims we realized there was very little in the way of children&#39;s media refelcting our values.</p>\r\n\r\n<p>So we dedicated ourselves to giving back to the community with the talents Allah SWT has provided us.&nbsp;</p>\r\n\r\n<article class=\"featured-article\">\r\n<h4 class=\"article-title\">Purpose</h4>\r\n</article>\r\n\r\n<p>We hope that this site will give children, like our own, a place to express themselves and to define themselves as the youngest members of the Muslim community. We hope that the site will be a platform for them get to know their young&nbsp;brothers and sisters around the world.&nbsp;</p>\r\n\r\n<p>The only thing we ask of you as parents is to spend some time with your children on this site. It is built to be highly interactive and&nbsp;offers many different ways for your children to express themselves online. Please take some time to work with your children on some of the projects and activities on the site and do encourage them to share what they do one the site. We hope that after you introduce them to what is possible on the site then they will run with it.</p>\r\n\r\n<p>We would love to hear from you. What you are liking?&nbsp;What can we do better? And what content you would like to see on the site?</p>\r\n\r\n<p>Thanks for giving the site a try.</p>\r\n\r\n<p>Michael Milo</p>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/a4d08c82.jpg",
+    "time_stamp": "2014-02-23T01:36:35Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "name": "Hello teachers",
+    "category": 3,
+    "user_name": "Muslim Kids TV",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/e712c65f.jpg",
+    "short_description": "Building a better Muslim generation",
+    "text": "<article class=\"featured-article\">\r\n<h4 class=\"article-title\">This site is for YOU!</h4>\r\n\r\n<p>As teachers and educators we know how difficult it is to find educational resources for English speaking Muslim children. There is a lack of resources that reflect our children&#39;s identities, that are engaging and of high quality.</p>\r\n\r\n<p>We also know that there is a high demand from Home School parents for interesting and challenging online materials that reflect Muslim values.</p>\r\n\r\n<p>Sadly, Muslim children are sometimes a neglected and forgotten segment of our community when it comes to educational resources.</p>\r\n\r\n<p>We ask Allah SWT that this site becomes a starting point for the development of the next generation of Islamic educational materials - materials that reflect the realities of Muslim children living in the 21 Century.</p>\r\n\r\n<p>It is an incredibly different world for our children from the realities we as adults knew - in a time before computers!&nbsp; So many children are so immersed in a mediated environment - computers, television and computer games.</p>\r\n\r\n<p>It is our belief that our children will appreciate educational materials that reflect that reality. We hope that Muslim Kids TV - our website and supporting educational resources - will fulfill this need, InshaAllah.</p>\r\n\r\n<p>As a parent or educator, what do you think? Is it time to have more multimedia resources for our Muslim children?</p>\r\n</article>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/9ecbe85e.jpg",
+    "time_stamp": "2014-01-17T03:23:11Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 6,
+  "fields": {
+    "name": "Create and Share - Winner",
+    "category": 4,
+    "user_name": "MuslimKidsTV",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/38a5e706.png",
+    "short_description": "AlHuda International School Boys - excellent video",
+    "text": "<p>On Muslim Kids TV you will find many different contests and challenges. Check out this amazing submission from the Al Huda International School in Islamabad.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<div class=\"embed-container\"><iframe allowfullscreen=\"\" frameborder=\"0\" height=\"1080\" mozallowfullscreen=\"\" src=\"https://player.vimeo.com/video/247431184?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=113076\" webkitallowfullscreen=\"\" width=\"1920\"></iframe></div>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>This submission was for the contest: Which Direction to the Qiblah.</p>\r\n\r\n<p>The objective of the contest is to find out the direction of the Qiblah. Why is it is so important to face the Qiblah when we pray? What happens if I have to pray in a different city, how do I find the Qiblah. With your team, find the verses in the Quran that describe the Qiblah, then figure out three ways to find the Qiblah. Document your work as a project in pictures and a few short paragraphs.</p>\r\n\r\n<p>Thank-you for the excellent submission Al Huda International School in Islamabad!</p>\r\n\r\n<p>What do you readers think? What would your entry look like?</p>\r\n\r\n<p>Hey, why don&#39;t you enter the contest - join Muslim Kids TV and check out the Create and Share contests.</p>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/4fc067ab.png",
+    "time_stamp": "2014-02-01T15:46:28Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 7,
+  "fields": {
+    "name": "Videos",
+    "category": 3,
+    "user_name": "Michael",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/07fcfcb3.png",
+    "short_description": "How to use our video page",
+    "text": "<article class=\"featured-article\">\r\n<p>&nbsp;</p>\r\n<iframe allowfullscreen=\"\" allowtransparency=\"true\" class=\"wistia_embed\" frameborder=\"0\" mozallowfullscreen=\"\" msallowfullscreen=\"\" name=\"wistia_embed\" oallowfullscreen=\"\" scrolling=\"no\" src=\"//fast.wistia.net/embed/iframe/zhxlbiqscn?videoFoam=true\" style=\"width: 100%; height: 369px;\" webkitallowfullscreen=\"\"></iframe><script src=\"//fast.wistia.net/assets/external/iframe-api-v1.js\"></script>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><img alt=\"\" src=\"/media/public/media/ckeditor/2014/02/23/video-page.jpg\" style=\"width: 350px; height: 730px; border-width: 1px; border-style: solid; float: right; margin-left: 10px; margin-right: 10px;\" />On our video page you will find over one hundred videos made specifically for Muslim children. Some of these videos are intended for children in pre-school years. Many others are developed for school age children.</p>\r\n\r\n<p>All of the videos are intended to be highly engaging through the participation of children in all aspects of production. Children are involved in writing, acting, singing and narrating the programs. Children love to see themselves reflected in the work.</p>\r\n\r\n<p>We also bring together some of the most well known English speaking entertainers in our productions including Baba Ali and many others.</p>\r\n\r\n<p>In the coming year we have a wonderful slate of new programs planned. You will see some familiar as well as some new faces in our programs. It promises to be an exciting year ahead, inshaAllah. So tell your freinds and family about Muslim Kids TV and help us develop new children&#39;s TV series all year round!</p>\r\n\r\n<p>Tell us what kind of videos you would like to see on Muslim Kids TV.</p>\r\n</article>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/dc34b29f.png",
+    "time_stamp": "2014-02-23T21:07:43Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 8,
+  "fields": {
+    "name": "Games",
+    "category": 3,
+    "user_name": "Michael",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/ff9c3004.png",
+    "short_description": "How to use our Games page",
+    "text": "<article class=\"featured-article\">\r\n<p>Computer games are one of children&#39;s most favorite forms of entertainment. Like many other things, as parents we have to guide our children through responsible usage.</p>\r\n\r\n<p><img alt=\"\" src=\"/media/public/media/ckeditor/2014/02/23/restaurant-game.jpg\" style=\"width: 350px; height: 261px; border-width: 1px; border-style: solid; margin-left: 10px; margin-right: 10px; float: right;\" /></p>\r\n\r\n<p>The games included on Muslim Kids TV all strive to go beyond simple entertainment. We have selected games that have educational benefits as well. Some of the games encourage problem solving and mathematical skills; others are based upon strategy; others test the limits of memory.</p>\r\n\r\n<p>The most exciting aspect of the game page is its future potential. We have already begun custom developing a series new games for the site. This new series focuses on basic language skills in Arabic and English.</p>\r\n\r\n<p>Stay tuned as we will profile each new game as it is released.</p>\r\n\r\n<p>Let us know what kinds of games you would like to see on the site!</p>\r\n</article>\r\n",
+    "thumbnail": "c9f0f895fb98ab9159f51fd0297e236d/1b1c5797.png",
+    "time_stamp": "2014-02-23T22:09:27Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 9,
+  "fields": {
+    "name": "Create and Share",
+    "category": 3,
+    "user_name": "Michael",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/5e17cbf8.png",
+    "short_description": "How to Use Create and Share",
+    "text": "<p>The Create and Share page is designed to provide a truly interactive experience for children. What you will find are various project based challenges.</p>\r\n\r\n<p><br />\r\nThe challenges are broken into four main categories:</p>\r\n\r\n<p><br />\r\n1.&nbsp;&nbsp; &nbsp;My Deen - challenges and contests all about Islam<br />\r\n2.&nbsp;&nbsp; &nbsp;Get Published - challenges to develop writing skills<br />\r\n3.&nbsp;&nbsp; &nbsp;Beautiful Work - challenges and contests that require children to work together in groups on projects<br />\r\n4.&nbsp;&nbsp; &nbsp;I Did it - these challenges are based the articles on the Learn page of the site</p>\r\n\r\n<p><br />\r\n<img alt=\"\" src=\"/media/public/media/ckeditor/2014/02/23/create-and-share-upload-sm.jpg\" style=\"width: 300px; height: 560px; border-width: 1px; border-style: solid; float: left; margin-left: 10px; margin-right: 10px;\" />One of the wonderful benefits of the Create and Share page is that all of the projects your child submits will always be associated with their account. You will see that every time they upload a project it is displayed on their Create and Share page.</p>\r\n\r\n<p><br />\r\nThe easy to use interface is designed so that even pre-school children can use it. You can select a featured image and a main write up for your project; you can include a team picture; and you can include as many supplemental pictures and written descriptions as you need in order to best showcase your project.</p>\r\n\r\n<p><br />\r\nVisitors to the Create and Share pages can then like and comment on the projects they see there.</p>\r\n\r\n<p><br />\r\nCreate and Share challenges are excellent ways to support classroom teaching or home schooling curriculum. They allow groups of children a place to show their talents and record the wonderful work they do for the world to see.</p>\r\n\r\n<p><br />\r\nIf you have an idea for a challenge as a parent or teacher - send your idea to info@muslimkids.tv or post a comment below.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/6e914d26.jpg",
+    "time_stamp": "2014-02-23T22:53:33Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 10,
+  "fields": {
+    "name": "Teachers",
+    "category": 3,
+    "user_name": "Admin",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/61f60478.jpg",
+    "short_description": "Planting seeds...",
+    "text": "<article class=\"featured-article\">\r\n<p>&nbsp;</p>\r\n\r\n<p><img alt=\"\" src=\"/media/public/media/ckeditor/2014/03/03/teachers-planting-seeds-sm_1.jpg\" style=\"width: 100%;\" /></p>\r\n</article>\r\n",
+    "thumbnail": "d3d9446802a44259755d38e6d163e820/3c1de000.jpg",
+    "time_stamp": "2014-03-04T05:35:07Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 11,
+  "fields": {
+    "name": "Muslim Kids TV",
+    "category": 1,
+    "user_name": "admin",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/c2489760.jpg",
+    "short_description": "100% Halaal TV",
+    "text": "<article class=\"featured-article\">\r\n<h4 class=\"article-title\">Muslim Kids TV- a place inspired by Islam</h4>\r\n\r\n<p><img alt=\"\" src=\"/media/public/media/ckeditor/2014/03/03/baba-ali-ad-sm_1.jpg\" style=\"width: 100%; height: 312px;\" /></p>\r\n</article>\r\n",
+    "thumbnail": "6512bd43d9caa6e02c990b0a82652dca/ae59beb9.jpg",
+    "time_stamp": "2014-03-04T05:43:12Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 12,
+  "fields": {
+    "name": "The Most Beautiful Names",
+    "category": 1,
+    "user_name": "admin",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/d309648e.jpg",
+    "short_description": "video series sample",
+    "text": "<p>A sample video of a series&nbsp;that teaches children the meanings of Allah&#39;s Most Beautiful Names in English</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><div class='embed-container'><iframe src=\"https://player.vimeo.com/video/241976236?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=113076\" width=\"1920\" height=\"1080\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>\r\n",
+    "thumbnail": "c20ad4d76fe97759aa27a0c99bff6710/653c2e46.png",
+    "time_stamp": "2014-03-04T06:05:21Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 13,
+  "fields": {
+    "name": "We remember Allah everyday",
+    "category": 4,
+    "user_name": "Admin",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/959d01e6.png",
+    "short_description": "FB fan remembering Allah",
+    "text": "<p>From Dubai!</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><div class='embed-container'><iframe src=\"https://player.vimeo.com/video/247431206?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=113076\" width=\"1920\" height=\"1080\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/964e0c6e.png",
+    "time_stamp": "2014-03-04T06:16:22Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 14,
+  "fields": {
+    "name": "We remember Allah everyday",
+    "category": 4,
+    "user_name": "Admin",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/465bd772.png",
+    "short_description": "MashaAllah!",
+    "text": "<p>MashaAllah!</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><div class='embed-container'><iframe src=\"https://player.vimeo.com/video/247431205?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=113076\" width=\"1920\" height=\"1080\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/7c7b96f4.png",
+    "time_stamp": "2014-03-04T06:29:55Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 15,
+  "fields": {
+    "name": "Creative Kids",
+    "category": 1,
+    "user_name": "Admin",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/cfc92d1f.png",
+    "short_description": "Story Written by...Muslim Kids Around the World!",
+    "text": "<article class=\"featured-article\">\r\n<h4 class=\"article-title\">Creative Kids</h4>\r\n\r\n<p>Creative Kids is a series of animated short stories written by children. &nbsp;The series is illustrated using scrap-booking techniques. These stories written by Muslim children provide universal lessons.</p>\r\n\r\n<p>Here is a sample of the series that you will find in the video section of the site. &nbsp;We have 36 stories from around the world. &nbsp;</p>\r\n</article>\r\n\r\n<p><div class='embed-container'><iframe src=\"https://player.vimeo.com/video/247562715?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=113076\" width=\"1920\" height=\"1080\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/021ff348.png",
+    "time_stamp": "2014-03-05T02:30:03Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 16,
+  "fields": {
+    "name": "Ameer's Wide World",
+    "category": 1,
+    "user_name": "Admin",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/33306fd1.png",
+    "short_description": "Exploring the World",
+    "text": "<article class=\"featured-article\">\r\n<h4 class=\"article-title\">Ameer&#39;s Wide World</h4>\r\n\r\n<p>This 13-part series follows a ten-year-old Canadian Muslim boy as he learns about the world around him. In each episode Ameer meets a different adult who teaches him about their profession. Shot from a child&#39;s point of view, Ameer&#39;s Wide World introduces children to the fascinating world of what adults do, stimulating the imaginations of children. This program is targeted to a Muslim children&#39;s audience and also introduces some basic Islamic morals and values.</p>\r\n\r\n<p>&nbsp;</p>\r\n</article>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<div class=\"embed-container\"><iframe allowfullscreen=\"\" frameborder=\"0\" height=\"1080\" mozallowfullscreen=\"\" src=\"https://player.vimeo.com/video/247562711?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=113076\" webkitallowfullscreen=\"\" width=\"1920\"></iframe></div>\r\n\r\n<p>&nbsp;</p>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/0522df1e.png",
+    "time_stamp": "2014-03-05T02:42:41Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 17,
+  "fields": {
+    "name": "Where is the Qiblah submission",
+    "category": 4,
+    "user_name": "Admin",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/041acc32.png",
+    "short_description": "Stop Motion Animation by Team Canada",
+    "text": "<article class=\"featured-article\">\r\n<p>Another submission from Canada!</p>\r\n\r\n<p>&nbsp;</p>\r\n</article>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<div class=\"embed-container\"><iframe allowfullscreen=\"\" frameborder=\"0\" height=\"1080\" mozallowfullscreen=\"\" src=\"https://player.vimeo.com/video/247431200?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=113076\" webkitallowfullscreen=\"\" width=\"1920\"></iframe></div>\r\n\r\n<p>&nbsp;</p>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/c6f51db0.png",
+    "time_stamp": "2014-03-05T03:03:29Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 18,
+  "fields": {
+    "name": "Muslim Kids TV",
+    "category": 1,
+    "user_name": "admin",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/0e4607d8.png",
+    "short_description": "Create an experience...",
+    "text": "<article class=\"featured-article\">\r\n<p>By the Grace and Will of Allah, Most High, Muslim Kids TV is a wonderful new on-line community for Muslim children to learn, engage and have a lot of fun!</p>\r\n\r\n<p>&nbsp;</p>\r\n</article>\r\n\r\n<p><div class='embed-container'><iframe src=\"https://player.vimeo.com/video/247431198?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=113076\" width=\"1920\" height=\"1080\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>\r\n",
+    "thumbnail": "6f4922f45568161a8cdf4ad2299f6d23/58ae8e63.png",
+    "time_stamp": "2014-03-06T14:32:22Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 19,
+  "fields": {
+    "name": "Explore Muslim Kids TV",
+    "category": 3,
+    "user_name": "admin",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/0873ab48.png",
+    "short_description": "An online playground for Muslim kids",
+    "text": "<article class=\"featured-article\">\r\n<h4 class=\"article-title\">Muslim Kids TV - an exciting new online community for Muslim kids!</h4>\r\n\r\n<p>Here&#39;s a peak of what is in the site:</p>\r\n\r\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img alt=\"\" src=\"/media/public/media/ckeditor/2014/03/06/video.jpg\" style=\"width: 450px; height: 494px;\" /></p>\r\n\r\n<p>We have over 100 high quality videos including Hurray for Baba Ali - Season 1 and Season 2.&nbsp; Here is a brief description of each program:</p>\r\n\r\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; <img alt=\"\" src=\"/media/public/media/ckeditor/2014/03/06/mktv-program-sample_1.jpg\" style=\"width: 500px; height: 342px;\" /></p>\r\n\r\n<p>Wait, there&#39;s more!&nbsp; Games!&nbsp; Fun and educational:</p>\r\n\r\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img alt=\"\" src=\"/media/public/media/ckeditor/2014/03/06/games-page.png\" style=\"width: 450px; height: 526px;\" /></p>\r\n\r\n<p>How about challenges and contest?&nbsp;</p>\r\n\r\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; <img alt=\"\" src=\"/media/public/media/ckeditor/2014/03/06/createshare.jpg\" style=\"width: 450px; height: 525px;\" /> &nbsp; &nbsp; &nbsp;</p>\r\n\r\n<p>Share your pictures with Muslim children around the world:</p>\r\n\r\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; <img alt=\"\" src=\"/media/public/media/ckeditor/2014/03/06/gallery-page.jpg\" style=\"width: 450px; height: 675px;\" /></p>\r\n\r\n<p>And read many interesting things on our playful learn page:</p>\r\n\r\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; <img alt=\"\" src=\"/media/public/media/ckeditor/2014/03/06/learn-page.jpg\" style=\"width: 450px; height: 519px;\" />&nbsp;&nbsp;&nbsp;&nbsp;</p>\r\n\r\n<p>And there&#39;s more coming inshaAllah!&nbsp; Subscribe TODAY!</p>\r\n</article>\r\n",
+    "thumbnail": "1f0e3dad99908345f7439f8ffabdffc4/ae9b4d52.jpg",
+    "time_stamp": "2014-03-07T03:38:40Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 20,
+  "fields": {
+    "name": "\"Amazing Content\"",
+    "category": 1,
+    "user_name": "Admin",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/624aadf4.jpg",
+    "short_description": "Boona Mohammed recommends Muslim Kids TV",
+    "text": "<article class=\"featured-article\">\r\n<p>Thanks Br. Boona!&nbsp;</p>\r\n\r\n<p>What are you waiting for?&nbsp; Sign up NOW!</p>\r\n</article>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<div class=\"embed-container\"><iframe allowfullscreen=\"\" frameborder=\"0\" height=\"1080\" mozallowfullscreen=\"\" src=\"https://player.vimeo.com/video/247431173?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=113076\" webkitallowfullscreen=\"\" width=\"1920\"></iframe></div>\r\n\r\n<p>&nbsp;</p>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/6e35a8d1.jpg",
+    "time_stamp": "2014-03-07T05:28:39Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 21,
+  "fields": {
+    "name": "A Place Inspired by Islam",
+    "category": 3,
+    "user_name": "admin",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/ea0563a7.png",
+    "short_description": "Muslim Kids TV - Sign up today!",
+    "text": "<article class=\"featured-article\">\r\n<p>&nbsp;</p>\r\n</article>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<div class=\"embed-container\"><iframe allowfullscreen=\"\" frameborder=\"0\" height=\"1080\" mozallowfullscreen=\"\" src=\"https://player.vimeo.com/video/247906266?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=113076\" webkitallowfullscreen=\"\" width=\"1920\"></iframe></div>\r\n\r\n<p>&nbsp;</p>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/42348f05.png",
+    "time_stamp": "2014-03-07T05:43:05Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 22,
+  "fields": {
+    "name": "Hurray for Baba Ali",
+    "category": 3,
+    "user_name": "Admin",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/cde92b98.jpg",
+    "short_description": "\"See you there!\"",
+    "text": "<article class=\"featured-article\">\r\n<p>Br. Ali Ardekani recommends Muslim Kids TV:</p>\r\n\r\n<p>&nbsp;</p>\r\n</article>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<div class=\"embed-container\"><iframe allowfullscreen=\"\" frameborder=\"0\" height=\"1080\" mozallowfullscreen=\"\" src=\"https://player.vimeo.com/video/247431171?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=113076\" webkitallowfullscreen=\"\" width=\"1920\"></iframe></div>\r\n\r\n<p>&nbsp;</p>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/ad46cd19.jpg",
+    "time_stamp": "2014-03-07T05:53:52Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 23,
+  "fields": {
+    "name": "Unique Islamic Entertainment",
+    "category": 3,
+    "user_name": "admin",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/9024bd53.jpg",
+    "short_description": "By Sheikh Navaid Aziz",
+    "text": "<article class=\"featured-article\">\r\n<p><em>&quot;Muslim Kids TV &ndash; unique pioneer in the field of Islamic entertainment for kids!</em>&quot;</p>\r\n\r\n<p>&nbsp;</p>\r\n</article>\r\n\r\n<p><div class='embed-container'><iframe src=\"https://player.vimeo.com/video/247431199?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=113076\" width=\"1920\" height=\"1080\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/b422229d.jpg",
+    "time_stamp": "2014-03-07T05:57:26Z",
+    "featured": true
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 24,
+  "fields": {
+    "name": "Homonyms",
+    "category": 4,
+    "user_name": "Admin",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/09a50c79.jpg",
+    "short_description": "By Noah & Fahmer",
+    "text": "<article class=\"featured-article\">\r\n<p>Homonym - two or more words that has the same sound or spelling but have different meanings.&nbsp;</p>\r\n\r\n<p><img alt=\"\" src=\"/media/public/media/ckeditor/2014/03/07/homonyms-new_page_1.jpg\" style=\"width: 500px; height: 375px;\" /></p>\r\n\r\n<p><img alt=\"\" src=\"/media/public/media/ckeditor/2014/03/07/homonyms-new_page_2.jpg\" style=\"width: 500px; height: 375px;\" /></p>\r\n\r\n<p><img alt=\"\" src=\"/media/public/media/ckeditor/2014/03/07/homonyms-new_page_3.jpg\" style=\"width: 500px; height: 375px;\" /></p>\r\n\r\n<p><img alt=\"\" src=\"/media/public/media/ckeditor/2014/03/07/homonyms-new_page_4.jpg\" style=\"width: 500px; height: 375px;\" /></p>\r\n\r\n<p><img alt=\"\" src=\"/media/public/media/ckeditor/2014/03/07/homonyms-new_page_5.jpg\" style=\"width: 500px; height: 375px;\" /></p>\r\n\r\n<p><img alt=\"\" src=\"/media/public/media/ckeditor/2014/03/07/homonyms-new_page_6.jpg\" style=\"width: 500px; height: 375px;\" /></p>\r\n\r\n<p><img alt=\"\" src=\"/media/public/media/ckeditor/2014/03/07/homonyms-new_page_7.jpg\" style=\"width: 500px; height: 375px;\" /></p>\r\n\r\n<p><img alt=\"\" src=\"/media/public/media/ckeditor/2014/03/07/homonyms-new_page_8.jpg\" style=\"width: 500px; height: 375px;\" /></p>\r\n</article>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/b006f00a.jpg",
+    "time_stamp": "2014-03-07T06:25:36Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 25,
+  "fields": {
+    "name": "See what's in Muslim Kids TV",
+    "category": 1,
+    "user_name": "admin",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/58487322.jpg",
+    "short_description": "What will I get with my subscription?",
+    "text": "<article class=\"featured-article\">\r\n<article class=\"featured-article\">\r\n<h4 class=\"article-title\">For only 4 cents/day, this is what I get with my subscription at Muslim Kids TV:</h4>\r\n</article>\r\n</article>\r\n\r\n<p><div class='embed-container'><iframe src=\"https://player.vimeo.com/video/247435041?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=113076\" width=\"1920\" height=\"1080\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>\r\n",
+    "thumbnail": "8e296a067a37563370ded05f5a3bf3ec/48c4678c.jpg",
+    "time_stamp": "2014-03-10T06:04:21Z",
+    "featured": true
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 26,
+  "fields": {
+    "name": "Don't be angry",
+    "category": 1,
+    "user_name": "Admin",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/c5ff4029.jpg",
+    "short_description": "Baba Ali is angry",
+    "text": "<article class=\"featured-article\">\r\n<p>Here is a sample of Hurray for Baba Ali series. &nbsp;Subscribe today to watch both Season 1 and Season 2! &nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n</article>\r\n\r\n<p><div class='embed-container'><iframe src=\"https://player.vimeo.com/video/247562717?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=113076\" width=\"1920\" height=\"1080\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>\r\n",
+    "thumbnail": "4e732ced3463d06de0ca9a15b6153677/72a2dd65.jpg",
+    "time_stamp": "2014-03-26T03:05:32Z",
+    "featured": true
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 27,
+  "fields": {
+    "name": "Ramadan Challenge",
+    "category": 1,
+    "user_name": "Muslim Kids TV",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/5be4d94b.png",
+    "short_description": "Celebrate Ramadan - do good deeds, win prizes!",
+    "text": "<p>Salaam Muslim Kids!&nbsp;</p>\r\n\r\n<p>Let&rsquo;s celebrate Ramadan, do good deeds and win some prizes!</p>\r\n\r\n<h4 class=\"article-title\"><strong>Here is what you have to do:</strong></h4>\r\n\r\n<ol>\r\n\t<li>Visit our Create &amp; Share page - there are tonnes of challenges for you to chose</li>\r\n\t<li>If you do 10, 20 or 30 challenges each week you get a chance to win</li>\r\n\t<li>Complete the challenges and upload them on the Create and Share pages</li>\r\n\t<li>Once you&#39;ve completed your challenges for the week, email info@muslimkids.tv and tell us the challenges that you did.</li>\r\n\t<li>When we receive your email we will check them out and award the prizes!</li>\r\n</ol>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h4 class=\"article-title\"><strong>WIN PRIZES each week</strong>!</h4>\r\n\r\n<ul>\r\n\t<li>Complete 10 Challenges to Win - a Muslim Kids TV T-Shirt</li>\r\n\t<li>Complete 20 Challenges to Win - a Muslim Kids TV T-Shirt and a Creative Kids DVD</li>\r\n\t<li>Complete 30 Challenges to Win - a Muslim Kids TV T-Shirt; a Creative Kids DVD; a Picnic of Poems book and CD; a poster of the &ldquo;Story of the Prophet Muhammad&rdquo; (peace be upon him); and 1 year free subscription to a friend or family of your choice</li>\r\n</ul>\r\n\r\n<p><a href=\"https://muslimkids.tv/contests/\">Visit our Create and Share page to get started.</a></p>\r\n\r\n<p><a href=\"https://muslimkids.tv/profiles/register/\">Not register for Muslim Kids TV yet? Click here to start today!</a></p>\r\n\r\n<p>If you have any questions email us at info@muslimkids.tv</p>\r\n\r\n<p>What are you waiting for!&nbsp; It starts today!</p>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/c3ed870d.jpg",
+    "time_stamp": "2014-06-27T16:30:05Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 28,
+  "fields": {
+    "name": "Schools love Muslim Kids TV",
+    "category": 3,
+    "user_name": "Admin",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/e3e8e251.png",
+    "short_description": "Using Muslim Kids TV in the classroom",
+    "text": "<p>Hey Educators, Here are some creative resources for you to use in the classroom. If you are a full-time teacher, a part time volunteer instructor or a home school parent - check out this video. Muslim Kids TV may make teaching easier and more enjoyable for you and your students.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<div class=\"embed-container\"><iframe allowfullscreen=\"\" frameborder=\"0\" height=\"1080\" mozallowfullscreen=\"\" src=\"https://player.vimeo.com/video/247431209?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=113076\" webkitallowfullscreen=\"\" width=\"1920\"></iframe></div>\r\n\r\n<p>&nbsp;</p>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/d1a2485c.jpg",
+    "time_stamp": "2014-08-14T19:30:13Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 29,
+  "fields": {
+    "name": "Understanding Hajj Through Storytelling",
+    "category": 3,
+    "user_name": "admin",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/15ddee72.jpg",
+    "short_description": "Hajj: An Easy to Follow Guide",
+    "text": "<h2>Hajj can be the most memorable act in the lifetime of a Muslim.</h2>\r\n\r\n<p>It is an amazing rite that is rich in history, struggle, sacrifice and reward. These traits provide endless hours of storytelling and teaching opportunities to engage children.</p>\r\n\r\n<p>For anyone who has had the privilege to perform Hajj, they know what an adventure it can be. These personal stories alone can provide great conversation and lessons for kids.</p>\r\n\r\n<p>Here are a few other suggestions for topics that are rich in meaning and life lessons for children.</p>\r\n\r\n<ul>\r\n\t<li>Explain how Prophet Abraheem &ndash; peace be upon him, built the Kabah</li>\r\n\t<li>Inquire how Hajar demonstrated profound faith and trust in Allah and the depth of mothers love for her children. How is this renacted by performing Sa&rsquo;i?</li>\r\n\t<li>What parenting lessons can be taken from how Prophet Ismail &ndash; peace be upon him, was an obedient son and willing to listen to Allah SWT at all cost?</li>\r\n\t<li>How did the Prophet Muhammed &ndash; peace be upon him, and his companions struggle to perform Hajj?</li>\r\n</ul>\r\n\r\n<p>Hajj is one of the more detailed and intricate of all rites in Islam. One way to teach your children about the day to day activities during Hajj is to watch the Muslim Kids TV series <strong>Hajj: An Easy to Follow Guide</strong>. This twenty part series is intended to describe the complex rites in a simple way for both adults and children to quickly understand. Each episode is about 3 minutes.</p>\r\n\r\n<p><br />\r\n&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<div class=\"embed-container\"><iframe allowfullscreen=\"\" frameborder=\"0\" height=\"1080\" mozallowfullscreen=\"\" src=\"https://player.vimeo.com/video/241746875?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=113076\" webkitallowfullscreen=\"\" width=\"1920\"></iframe></div>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Hajj: An Easy to Follow Guide </strong>is a great way to teach your children about Hajj. It is also a great resource to use in full-time and part-time Islamic schools during the season of Hajj.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>What other lessons and stories can be derived from Hajj? How do you teach your children about this most important pillar?</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>To view all 20 episodes of&nbsp;<strong>Hajj: An Easy to Follow Guide</strong> <a href=\"https://muslimkids.tv/profiles/register/\">subscribe to Muslim Kids TV</a>, today!</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/03c755b5.png",
+    "time_stamp": "2014-09-22T03:58:59Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 30,
+  "fields": {
+    "name": "Haiya BidDoa packs a strong punch",
+    "category": 1,
+    "user_name": "Muslim Kids TV",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/e0b45898.png",
+    "short_description": "New animate 3D series",
+    "text": "<p>The new 3D series on Muslim Kids TV seems simple enough. Haiya BidDoa translates to come and learn duah. The series definitely teaches duah. It is also a whole lot more!</p>\r\n\r\n<p>In one minute children are taught a duah applicable to everyday life. Also packed into that one-minute are wonderfully entertaining stories full of life lessons.</p>\r\n\r\n<p>The 30 part series follows a young family. It is a mixed culture marriage. Hasen is the Sudanese father who is working and living in Malaysia. He has married Nourul a Malaysian woman. They have two wonderful children - Habib a 6-year-old boy and his sister Zara who is five-years-old.</p>\r\n\r\n<p>In each episode Habib and Zara learn the benefit of asking Allah Subhanah wa Ta&rsquo;ala to help them with everyday tasks and challenges.</p>\r\n\r\n<p>The series helps teach our own children, and reminds us as adults, about the importance of constantly remembering Allah SWT.</p>\r\n\r\n<p>Muslim Kids TV has a special interview with the producer of the series Mr. Zubir Zain, CEO of Tulus Fikir Animation House in Kuala Lumpur.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<div class=\"embed-container\"><iframe allowfullscreen=\"\" frameborder=\"0\" height=\"1080\" mozallowfullscreen=\"\" src=\"https://player.vimeo.com/video/247431183?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=113076\" webkitallowfullscreen=\"\" width=\"1920\"></iframe></div>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><br />\r\nWe hope that you enjoy the series and we look forward to more of the amazing animation work of Tulus Fikir on Muslim Kids TV.</p>\r\n\r\n<p>Haiya BidDoa certainly speaks to children across cultures and around the world<a href=\"https://muslimkids.tv/profiles/register/\">!</a></p>\r\n\r\n<h3><a href=\"https://muslimkids.tv/profiles/register/\">Subscribe TODAY!</a></h3>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/78eaeb11.png",
+    "time_stamp": "2014-11-03T04:02:07Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 31,
+  "fields": {
+    "name": "A Media Pioneer: Dr. Jamal Badawi",
+    "category": 3,
+    "user_name": "Muslim Kids TV",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/53ebff90.png",
+    "short_description": "Dr. Badawi talks about Muslim Kids TV",
+    "text": "<h3>Dr Badawi is perhaps on of the most influential North American scholars. He came to the United Sates to do graduate studies in the 1960&rsquo;s, part of a wave of Muslim intellectuals seeking knowledge and a better life. He later settled in Halifax, Canada.</h3>\r\n\r\n<p>Dr. Badawi has tirelessly served the Muslim and broader community through tens of thousand of presentations and teaching sessions. He is a pioneer whose contribution to Muslim life in the 21st century cannot be under estimated.</p>\r\n\r\n<p>One of Dr. Badawi&rsquo;s accomplishments is a 352 part television series on Islam, produced for cable television in Halifax.</p>\r\n\r\n<p>As an intellectual and Muslim media pioneer of the highest caliber, we are honored by the support Dr. Badawi has given to Muslim Kids TV.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<div class=\"embed-container\"><iframe allowfullscreen=\"\" frameborder=\"0\" height=\"1080\" mozallowfullscreen=\"\" src=\"https://player.vimeo.com/video/247431182?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=113076\" webkitallowfullscreen=\"\" width=\"1920\"></iframe></div>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><br />\r\nThe efforts of scholars like Dr. Badawi should never be lost on our children. If you have a story or message on how Dr. Badawi&rsquo;s work has influenced your life or community, please share it here.</p>\r\n\r\n<p>Let&rsquo;s collect enough of stories of Dr. Badawi&rsquo;s life and influence to publish them for our children to better understand their own history.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/d5560c36.jpg",
+    "time_stamp": "2014-11-27T23:09:34Z",
+    "featured": true
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 32,
+  "fields": {
+    "name": "Rahmah Muslim Homeschool",
+    "category": 1,
+    "user_name": "Muslim Kids TV",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/8256dfe9.png",
+    "short_description": "Review of Muslim Kids TV",
+    "text": "<h3>We always think of Muslim Kids TV as a partnership with parents and educators.</h3>\r\n\r\n<p>Al&#39;hamdulillah, we were very pleased to have a positive review of Muslim Kids TV from internationally renowned UK based Rahmah Muslim Homeschool network.</p>\r\n\r\n<h4><span style=\"color:#808080;\">&quot;You&rsquo;ll find many good quality Islamic videos and many activities such as worksheets, games and articles for kids. You can even upload your own content and share it with others... </span></h4>\r\n\r\n<h4><span style=\"color:#808080;\">On the top of that, you&rsquo;ll find a lot of creative ideas that you can do with your kids at home. I definitely recommend this site for homeschooling parents and also Muslim parents in general.&quot;</span></h4>\r\n\r\n<p>Muslim Kids TV was developed with the needs of parents in mind. We thought a lot about how home school parents provide interactive educational experiences for their children.</p>\r\n\r\n<p>On the site The Create and Share page allows children to participate in off-line projects and then upload them to the site. Children are challenged with everything from learning the meaning of their name to interviewing their local Imam to find out what it takes to become a religious scholar.</p>\r\n\r\n<p>Muslim Kids TV cares deeply about the development of our future generation. They need to be protected and nurtured and as Rahmah Muslim Homeschool states:</p>\r\n\r\n<h4><span style=\"color:#808080;\">&quot;The good thing about MKTV is there are no inappropriate ads and no un-Islamic suggested videos like on Youtube.</span>&quot;</h4>\r\n\r\n<p><a href=\"http://www.rahmahmuslimhomeschool.co.uk/index/review-muslim-kids-tv-25-off-coupon-code/\" target=\"_blank\">You can read the full text of the article here.</a></p>\r\n\r\n<p>If you have any ideas of how to make Muslim Kids TV an even better experience for home schoolers, we&#39;d love to hear from you.</p>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/8ac10713.jpg",
+    "time_stamp": "2014-11-28T02:11:50Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 33,
+  "fields": {
+    "name": "Understanding the Quran with Nouman Ali Khan",
+    "category": 1,
+    "user_name": "Muslim Kids TV",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/799022e8.png",
+    "short_description": "Announcement of new series",
+    "text": "<h3>A brand new series of videos has been added to Muslim Kids TV.</h3>\r\n\r\n<p>The Understanding the Quran series by Nouman Ali Khan and Bayyinah TV will help your older children access some of the important themes in the Quran.</p>\r\n\r\n<p>The series is presented in lecture format but is visualized using white board style animation. This format is a wonderful way to respond to the various learning styles of our children - both auditory and visual.</p>\r\n\r\n<p>If you are looking for a way to introduce the some of the more complex themes addressed in the Quran this series is a great place to start.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><div class='embed-container'><iframe src=\"https://player.vimeo.com/video/242001705?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=113076\" width=\"1920\" height=\"1080\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>\r\n\r\n<p>In total there are nine videos as part of the series.</p>\r\n\r\n<p><a href=\"https://muslimkids.tv/profiles/register/\">To view the entire series and over 200 other videos for Muslim children you can subscribe to Muslim Kids TV. Try it for free for one month!</a></p>\r\n\r\n<p>Let us know what you think of the series and your ideas on the kinds of videos you would like to see on Muslim Kids TV.</p>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/a355742c.jpg",
+    "time_stamp": "2014-11-28T02:22:05Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 34,
+  "fields": {
+    "name": "Getting Creative with Sakinah Circle ",
+    "category": 4,
+    "user_name": "Sakinah Circle",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/ccca8be5.png",
+    "short_description": "An excellent art program produces results",
+    "text": "<h2>Creativity is an essential part of the healthy development of children.</h2>\r\n\r\n<p>Fostering a creative mind allows us to see the world from many angles; solve problems through multiple unique solutions; and generally live a productive and fulfilled life.</p>\r\n\r\n<p>Children should be given every opportunity to test their own creativity. Art has always been one area where children can do this and explore various ways to solve a problem. The skills learned through a good artistic challenge will be training children to use this creative thinking in other aspects of life. This creative problem solving can be applied to scientific research, engineering and medicine. It can also be applied to any aspect of life.</p>\r\n\r\n<p>Sakinah Circle is a full time program that is part of the Edmonton Public School system in Canada. It has an excellent art program. The challenges stretch students&#39; imaginations as well as their technical skills.</p>\r\n\r\n<p>Here are some examples of the excellent work.</p>\r\n\r\n<h3>Starry Nights</h3>\r\n\r\n<p>This project examines the artwork of the famous 20th century painter Vincent VanGogh. Known for the poetic rendering of the visual world, students were asked to also think of the art as not simply representing a factual depiction of the visual space.</p>\r\n\r\n<p><img alt=\"\" src=\"/media/public/media/ckeditor/2014/12/09/starry-nights1_1.jpg\" style=\"width: 500px; height: 375px;\" /></p>\r\n\r\n<h3>Nourishing our Hearts</h3>\r\n\r\n<p>&nbsp;The heart is the centre of our feelings and emotions. So what better theme for students to explore in an excersie on the expressive potential of repeatative pattern, shapes and color.</p>\r\n\r\n<p><img alt=\"\" src=\"/media/public/media/ckeditor/2014/12/09/nourishing-hearts1_1.jpg\" style=\"width: 500px; height: 375px;\" /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h3>Stepping Outside the Box</h3>\r\n\r\n<p>There are no prohibitions in Islam about being creative or celebrating the beautiful. So why not push the limits of your own creativity or the art program in your school? If you have any art projects you would like to share, comment below!</p>\r\n\r\n<p><img alt=\"\" src=\"/media/public/media/ckeditor/2014/12/09/calligraphy-birds-2.jpg\" style=\"width: 410px; height: 307px;\" /></p>\r\n\r\n<p><img alt=\"\" src=\"/media/public/media/ckeditor/2014/12/09/circle-painting1_1.jpg\" style=\"width: 500px; height: 375px;\" /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><img alt=\"\" src=\"/media/public/media/ckeditor/2014/12/09/pieces-of-peace1_2.jpg\" style=\"width: 500px; height: 375px;\" /></p>\r\n\r\n<p>&nbsp;</p>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/1e938acc.jpg",
+    "time_stamp": "2014-12-09T22:26:08Z",
+    "featured": true
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 35,
+  "fields": {
+    "name": "Al Hijra School - UNESCO Partner",
+    "category": 3,
+    "user_name": "Michael",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/a7381b6d.png",
+    "short_description": "Al Hijra Islamic School in Winnipeg, Canada",
+    "text": "<article class=\"featured-article\">\r\n<h4 class=\"article-title\">Al Hijra Islamic School in Winnipeg, Canada is one of the Muslim Kids TV educational partners.</h4>\r\n\r\n<p>Al Hijra was founded in 1996 and has 240 students from Kindergarten to grade 9 program. The school offers its program in cooperation with the Manitoba Ministry of Education and provides children an accredited education with an Islamic focus.</p>\r\n\r\n<p><img alt=\"\" src=\"/media/public/media/ckeditor/2015/04/08/alhijra.JPG\" style=\"width: 306px; height: 230px; float: left; margin: 25px; border-width: 0px; border-style: solid;\" /></p>\r\n\r\n<p>On special thing about Al Hijra is that it is a UNESCO school. UNESCO is the United Nations Educational, Scientific and Cultural Organization. It is a special agency of the United Nation whose purpose is to contribute to peace and security by promoting international collaboration through education, science, and culture.</p>\r\n\r\n<p><img alt=\"Al hijra school UNESCO\" src=\"/media/public/media/ckeditor/2015/04/08/unesco-logo.jpg\" style=\"width: 300px; height: 320px; float: right; margin: 25px;\" /></p>\r\n\r\n<p>Al Hijra has developed a learning partnership with 5 other schools in Winnipeg. They have all been designated as UNESCO schools. These unique schools extend their learning across their school boundaries into wider Winnipeg and to a global community. The schools cooperate to engage students in an interfaith dialogue and intercultural learning.</p>\r\n\r\n<p>The UNESCO schools have developed a Cultural Diversity Program. It is designed to recognize and give significance to the students&#39; personal and cultural identities while encouraging knowledge, understanding, appreciation and respect of other people&#39;s religions and cultures.</p>\r\n\r\n<p>Each June grade 5 students from the 5 schools participate in an interactive workshop learning about diversity. These workshops continue for two years and in the second year the students visit a Mosque, Church and Synagogue where they dialogue with the clerics in each of the houses of Worship. Classroom discussions and exposure to cultural diversity literature throughout the school year provide continued learning experiences.</p>\r\n\r\n<p><img alt=\"\" src=\"/media/public/media/ckeditor/2015/04/08/alhijra-kids.jpg\" style=\"width: 240px; height: 180px; margin: 25px; float: left;\" /></p>\r\n\r\n<p>The most exciting aspect of the UNESCO schools is student representatives from each school come together to collaboratively develop action plans related to social justice and environmental sustainable initiatives. This collaboration gives the students at Al Hijra Islamic School exposure to real world challenges and build in them the skills to be ambassadors of Islam to the broader world.</p>\r\n\r\n<p>&nbsp;</p>\r\n</article>\r\n",
+    "thumbnail": "1c383cd30b7c298ab50293adfecb7b18/5700fba2.jpg",
+    "time_stamp": "2015-04-08T17:24:27Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 36,
+  "fields": {
+    "name": "Happy Ramadan 2015",
+    "category": 1,
+    "user_name": "Michael Milo",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/221459b3.png",
+    "short_description": "Wishing you a blessed Ramadan 2015",
+    "text": "<h1>Muslim Kids TV would like to wish you and your family a very happy and blessed Ramadan.</h1>\r\n\r\n<p>&nbsp;<br />\r\nAisha reported: The Messenger of Allah, peace and blessings be upon him, said, &ldquo;The best of you are the best to their families, and I am the best to my family....&rdquo; (Sunan At-Tirmidhi)<br />\r\n&nbsp;<br />\r\nLet&#39;s use Ramadan as an extra special time for our families and children. Children learn so much during this blessed month. They learn about the importance of the Quran; our love and sacrifice for the sake of Allah; and most importantly they see religion as an active part of our daily lives.<br />\r\n&nbsp;<br />\r\nMuslim Kids TV hopes to be with you during Ramadan. When you need a&nbsp; break for the kids, trust that we are a healthy option.</p>\r\n\r\n<p><img alt=\"\" src=\"/media/public/media/ckeditor/2015/06/17/screen-shot-2015-06-17-at-104356-pm.png\" style=\"width: 650px; height: 488px;\" /><br />\r\n&nbsp;<br />\r\nHere are a few ideas:<br />\r\n&nbsp;</p>\r\n\r\n<p>&nbsp;&nbsp;&nbsp; Recitation Buddy - helping kids memorize the Quran.<br />\r\n&nbsp;&nbsp;&nbsp; Keep me Busy - Ramadan video series of fun arts and crafts.<br />\r\n&nbsp;&nbsp;&nbsp; A special Ramadan contest for both parents and kids!</p>\r\n\r\n<p>More to be announced on that soon...<br />\r\n&nbsp;</p>\r\n\r\n<p><img alt=\"\" src=\"/media/public/media/ckeditor/2015/06/17/screen-shot-2015-06-17-at-104711-pm.png\" style=\"width: 574px; height: 323px;\" /><br />\r\nRamadan is the time to get much closer to Allah Subhanna&#39;wa&#39;ta&#39;ala. At the same time Ramadan also brings us closer together as families with so many opportunities for sharing together.</p>\r\n\r\n<p>Wishing you a blessed and fulfilling Ramadan!</p>\r\n",
+    "thumbnail": "19ca14e7ea6328a42e0eb13d585e4c22/035de806.png",
+    "time_stamp": "2015-06-18T03:47:57Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 37,
+  "fields": {
+    "name": "Winner of April Contest of the Month",
+    "category": 4,
+    "user_name": "Michael Milo",
+    "avatar": "a5bfc9e07964f8dddeb95fc584cd965d/ca7b4555.jpg",
+    "short_description": "The best avatar winner is...",
+    "text": "<h1>Special thanks to Superman for his avatar.</h1>\r\n\r\n<p>Abdul Aliy is the winner of the best Avatar contest for April 2015. Check out his AVATAR on the <a href=\"https://muslimkids.tv/contests/submission/149/\">Create and Share Page</a> and read all the great comments too.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Abdul Aliy says he would like to save everyone from evils. That is why he is, &quot;THE BIGGEST FAN OF SUPERMAN AND I HAVE MADE A SUPER MAN AS AN Avatarr tooooooooooo!!!!!!</p>\r\n\r\n<p><a href=\"https://muslimkids.tv/contests/submission/149/\"><img alt=\"Best Avatar April 2015\" src=\"/media/public/media/ckeditor/2015/06/20/screen-shot-2015-06-20-at-93404-am.png\" style=\"width: 650px; height: 351px;\" /></a></p>\r\n\r\n<p>Keep up the good work young Abdul Aliy we definitely need the world saved from evil!</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Where are all the other superheros out there?</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><a href=\"https://muslimkids.tv/contests/contest/112/\">Superheros or not you can keep posting your avatars to the Create and Share page all year round!</a></p>\r\n",
+    "thumbnail": "a5bfc9e07964f8dddeb95fc584cd965d/1b35f52d.jpg",
+    "time_stamp": "2015-06-20T14:49:14Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 38,
+  "fields": {
+    "name": "Ramadan Challenge 2015",
+    "category": 1,
+    "user_name": "Michael Milo",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/9db44ef6.jpg",
+    "short_description": "Join the challenge - for parents and kids too...",
+    "text": "<h1>Ramadan Seen Through the Eyes of a Child</h1>\r\n\r\n<h3>We are looking for the most inspiring stories about Ramadan!</h3>\r\n\r\n<p>Ramadan as seen through the eyes of a child is magical.</p>\r\n\r\n<p>What are the memories and experiences of Ramadan that stands out most for you?</p>\r\n\r\n<p>What are the sights sounds and smells that inspire you with awe?</p>\r\n\r\n<p><img alt=\"\" src=\"/media/public/media/ckeditor/2015/06/20/project_1335_body_ramadan_boy1.jpg\" style=\"width: 595px; height: 370px;\" /></p>\r\n\r\n<h3>What is even cooler - this contest is for adults too!</h3>\r\n\r\n<p><strong>2 categories of entries:</strong></p>\r\n\r\n<ul>\r\n\t<li>Adult&rsquo;s stories &ndash; we will accept submissions from adults telling the story of their most memorable Ramadan as a child.</li>\r\n\t<li>Children&#39;s stories &ndash; these will be the fresh experiences of children as they see Ramadan with their family, friends and communities.</li>\r\n</ul>\r\n\r\n<h3><br />\r\nTurning Vibrant Stories into Animated TV Series</h3>\r\n\r\n<p>Your short stories should paint a picture of the richness of Muslim life while fasting. We want to hear descriptive stories of life during Ramadan from rural villages in Asia in the 1950s, to the bustling streets of Cairo, to a small masjid in the mid-west of the USA.</p>\r\n\r\n<p>During the last week of Ramadan, we will select the finalists. These winning stories will be turned into an animated TV series for Ramadan next year and for years to come, inshaAllah.</p>\r\n\r\n<p>Your stories will be featured on Muslim Kids TV and potentially be broadcast on other TV channels too.</p>\r\n\r\n<h3><br />\r\nUpload your story &amp; cool pictures to the Create and Share page for a chance to win cash prizes.</h3>\r\n\r\n<p><strong>How to Do It?</strong></p>\r\n\r\n<ol>\r\n\t<li>Write your story (maximum 2,500 words or less)</li>\r\n\t<li>Collect some cool pictures that help tell your story (photos, drawings, etc.)</li>\r\n\t<li>Log into your account on Muslim Kids TV.</li>\r\n\t<li>Upload your story and pictures to https://muslimkids.tv/contests/contest/114/</li>\r\n</ol>\r\n\r\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<br />\r\n<strong>Prizes</strong></p>\r\n\r\n<p>There will be a cash prize of $25 for the adult and child stories. Plus the winning stories will be turned into a short animation.</p>\r\n\r\n<p><strong>Rules</strong></p>\r\n\r\n<ol>\r\n\t<li>Enter as many times as you want</li>\r\n\t<li>Stories will be judged by a panel of Muslim Kids TV guest judges</li>\r\n\t<li>Parents will be notified if their child&rsquo;s submission is selected and arrangements will be made to send the prize money</li>\r\n\t<li>&nbsp;All decisions of MKTV judges will be final</li>\r\n</ol>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>DON&#39;T HAVE A MUSLIM KIDS TV MEMBERSHIP? THEN EMAIL YOUR STORIES TO</strong> <a href=\"mailto:info@muslimkids.tv?subject=My%20Submission%20to%20MKTV%20Ramadan%20Challenge&amp;body=Here%20is%20my%20story%20about%20Ramadan%20as%20a%20child.%0A%0Aenter%20story%20text%20here...\"><strong>info@muslimkids.tv</strong></a></p>\r\n\r\n<p><br />\r\n<strong>SUBMISSION DEADLINE IS February 25, 2016. CONTEST WINNERS WILL BE ANNOUNCED March 15, 2016</strong></p>\r\n\r\n<p>&nbsp;</p>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/270ddb34.jpg",
+    "time_stamp": "2015-06-20T16:21:03Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 39,
+  "fields": {
+    "name": "Recitation Buddy",
+    "category": 3,
+    "user_name": "Admin",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/37e3e369.png",
+    "short_description": "Check out our step by step video",
+    "text": "<h1>The Importance of the Quran</h1>\r\n\r\n<p><strong>Recitation Buddy</strong> is a special feature of Muslim Kids TV. It is a Quran recitation and memorization tool to help you and your family.</p>\r\n\r\n<p>Check out how easy it is to use <strong>Recitation Buddy</strong>.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><div class='embed-container'><iframe src=\"https://player.vimeo.com/video/247431189?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=113076\" width=\"1920\" height=\"1080\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>\r\n\r\n<p>For schools, <strong>Recitation Buddy</strong> is an excellent way to track children&#39;s practice time. Teachers and instructors can finally get rid of messy paper tracking sheets!</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>An even more exciting feature of <strong>Recitation Buddy</strong> is the ability for children to record themselves and to share their recording via email with parents, teachers and even an over-seas Quran teacher.</p>\r\n\r\n<p>See how to use <strong>Recitation Buddy </strong>to do practice recordings.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><div class='embed-container'><iframe src=\"https://player.vimeo.com/video/247431201?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=113076\" width=\"1920\" height=\"1080\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>\r\n\r\n<p>Contact us today to learn more about how your school or masjid can benefit from <a href=\"mailto:info@muslimkids.tv?subject=Tell%20me%20more%20about%20Recitation%20Buddy&amp;body=I%20want%20to%20learn%20more%20about%20Recitation%20Buddy%20for%20my%20school%20or%20masjid.\"><strong>Recitation Buddy</strong></a>.</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+    "thumbnail": "d67d8ab4f4c10bf22aa353e27879133c/51c15557.jpg",
+    "time_stamp": "2015-07-02T02:52:03Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 40,
+  "fields": {
+    "name": "Sneak Peak",
+    "category": 1,
+    "user_name": "Michael Milo",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/2bbac746.png",
+    "short_description": "Mama and Lulu coming soon...",
+    "text": "<h2>We are pleased to announce <strong>Mama and Lulu</strong>, the all new Muslim Kids TV exclusive series.</h2>\r\n\r\n<p>The past year Muslim Kids TV writers, sound engineers, amazingly talented voice actors, graphic artists and animators have all come together to develop an all new 2D animated series.</p>\r\n\r\n<p><strong>Mama and Lulu</strong> follows a family as they tour the world learning new things. In season 1, Lulu will learn about the lives and messages of our beloved Prophets, peace be upon all of them.</p>\r\n\r\n<p>Many loyal Muslim Kids TV supporters have funded the series. May Allah SWT reward you for your generosity! We ask Allah to make the series something children will love and benefit from for generations to come.</p>\r\n\r\n<p>Here is the first episodes of <strong>Mama and Lulu</strong>...</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<div class=\"embed-container\"><iframe allowfullscreen=\"\" frameborder=\"0\" height=\"1080\" mozallowfullscreen=\"\" src=\"https://player.vimeo.com/video/247431190?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=113076\" webkitallowfullscreen=\"\" width=\"1920\"></iframe></div>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>If you like the series we ask that you please pitch in and help us develop more great children&#39;s TV shows like <strong>Mama and Lulu</strong>.</p>\r\n\r\n<p>Support our new series <strong>My Childhood Ramadan</strong> by visiting <a href=\"https://www.launchgood.com/project/my_childhood_ramadan#/\">https://www.launchgood.com/project/my_childhood_ramadan#/</a></p>\r\n\r\n<p>&nbsp;</p>\r\n",
+    "thumbnail": "d645920e395fedad7bbbed0eca3fe2e0/b56a997d.png",
+    "time_stamp": "2015-07-08T08:50:26Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 41,
+  "fields": {
+    "name": "Parenting Tips ",
+    "category": 3,
+    "user_name": "Flordeliza Dayrit",
+    "avatar": "3416a75f4cea9109507cacd8e2f2aefc/bc0bc8e9.png",
+    "short_description": "Learn to say NO!",
+    "text": "<article class=\"featured-article\">\r\n<h4 class=\"article-title\">Parenting Tips:</h4>\r\n\r\n<h4 class=\"article-title\"><span style=\"color:#008000;\"><strong>Curb the sense of entitlement that many children have by learning to say no</strong></span></h4>\r\n\r\n<article class=\"featured-article\">\r\n<p>That doesn&#39;t mean you can&#39;t give your child anything, it just means you can&#39;t give your child everything.&nbsp; Learning to say no when they ask for a candy bar at checkout will go a long ways towards teaching a child that they earn their rewards.&nbsp; If they have been particularly well behaved in the store and even helped you with the younger children, then a yes may be in order.&nbsp; Pick and choose your yes&#39;s so they mean more when they do come.</p>\r\n</article>\r\n</article>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/c4b0a40d.jpg",
+    "time_stamp": "2015-09-12T14:36:53Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 42,
+  "fields": {
+    "name": "Teaching Tips: Earn Brownie Points",
+    "category": 3,
+    "user_name": "Flordeliza Dayrit",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/1ad97bae.png",
+    "short_description": "Earn Brownie Points",
+    "text": "<article class=\"featured-article\">\r\n<h4 class=\"article-title\">Teaching Tips: <span style=\"color:#FF0000;\">Earn Brownie Points</span></h4>\r\n\r\n<p>Getting all of your students to turn in their homework can be a frustrating task for teachers. Sometimes, students need a positive nudge in the right direction. What&rsquo;s more encouraging than boasting some brownies? Tell your students that each time the entire class turns in their home work; you will color in a block on a bar graph that you have made. You can start out small, and create a bar that has ten blocks inside of it to be colored (then, gradually make your bar taller by adding more blocks, hence making it more of a challenge to get the entire thing colored in). Once all blocks are colored inside the bar, reward your students with a brownie. It&rsquo;s a great way to ensure all homework gets turned in, it teaches students about setting goals, as well as accountability; and it requires total team work!</p>\r\n</article>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/cc982548.jpg",
+    "time_stamp": "2015-09-12T14:44:22Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 43,
+  "fields": {
+    "name": "Hajj For Kids",
+    "category": 3,
+    "user_name": "Michael Milo",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/caeef0ef.jpg",
+    "short_description": "Learning Made Easy",
+    "text": "<h1>Hajj For Kids</h1>\r\n\r\n<h2>Learning about Hajj can seem really complicated.</h2>\r\n\r\n<p>It is a very experiential act of worship. There is nothing that can beat doing Hajj to understand it best.</p>\r\n\r\n<p><img alt=\"Arafat\" src=\"/media/public/media/ckeditor/2015/09/14/arafat_jabal_al_rahma-500px.jpg\" style=\"width: 500px; height: 400px; margin-left: 50px; margin-right: 50px;\" /></p>\r\n\r\n<p>So how do we get our kids and youth to want to learn about something with such a level of complexity and depth?</p>\r\n\r\n<p>How do we prepare the youngest members of our community to be ready when that invitation from Allah Almighty comes?</p>\r\n\r\n<p>For children and youth, we need to explain things in simple terms. We need to make the complicated easy so they will want to learn more.</p>\r\n\r\n<p><img alt=\"jamarat\" src=\"/media/public/media/ckeditor/2015/09/14/jamarat-350.jpg\" style=\"width: 350px; height: 280px; float: right; margin-left: 10px; margin-right: 10px;\" /></p>\r\n\r\n<p>The Muslim Kids TV series <strong>Hajj: An Easy to Flow Guide</strong> does just that. In a series of twenty short videos, viewers learn the most essential aspects of performing Hajj. The series uses 2D animation, video and exclusive photographs from Ministry of Hajj photographer Omar Farouk Aksoy to bring simplicity and meaning to the detailed rites of Hajj.</p>\r\n\r\n<p><strong>Hajj: An Easy to Follow Guide </strong>is a perfect tool in the class room or at home to share and grow together in knowledge with your children.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<div class=\"embed-container\"><iframe allowfullscreen=\"\" frameborder=\"0\" height=\"1080\" mozallowfullscreen=\"\" src=\"https://player.vimeo.com/video/241746875?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=113076\" webkitallowfullscreen=\"\" width=\"1920\"></iframe></div>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><a href=\"https://muslimkids.tv/videos/show/43/\">Watch it today on Muslim Kids TV!</a> Let us know your amazing Hajj story and we can publish it on Muslim Kids TV.</p>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/b9eb6481.jpg",
+    "time_stamp": "2015-09-15T01:03:00Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 44,
+  "fields": {
+    "name": "Teaching Tips: Group Galore",
+    "category": 3,
+    "user_name": "Flordeliza Dayrit",
+    "avatar": "f7177163c833dff4b38fc8d2872f1ec6/426b5e69.png",
+    "short_description": "Working together",
+    "text": "<article class=\"featured-article\">\r\n<h4 class=\"article-title\">Teaching Tips: <span style=\"color:#008000;\">Group Galore</span></h4>\r\n\r\n<p>Seating students in small groups requires a certain level of planning. You don&rsquo;t want to seat students just anywhere. When creating a seating chart, be sure to have a pencil, a map of your classroom drawn out, and a class list in front of you. One major thing to consider when grouping students is ability level. If you have 24 students in your classroom, consider arranging desks into three equal groups. Within these groups, have at least two above grade level students, three on-level grade students, and 3 below level students. This scaffolding effect will encourage higher level thinking from all students and will motivate and allow your lower level students to take cues from higher level students who can model certain thinking strategies, demonstrate what high quality work looks like, and can help expose the rest of the group to a more expansive vocabulary.</p>\r\n</article>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/cc6f9488.jpg",
+    "time_stamp": "2015-10-10T23:34:40Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 45,
+  "fields": {
+    "name": "Teaching Tips: Perfect Partners",
+    "category": 3,
+    "user_name": "Flordeliza Dayrit",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/7e320e5c.png",
+    "short_description": "picking partners",
+    "text": "<h4 class=\"article-title\">Teaching Tips: <span style=\"color:#008000;\">Perfect Partners</span></h4>\r\n\r\n<p>Picking partners can be a stressful activity for students. No one wants to be picked last, left out, or work with the same student over and over again. To avoid partner boredom and potential behavioral problems in the classroom, pick perfect partners every time by making partner cards. Find images of objects that go together naturally, like peanut butter and jelly, Charlie Brown and Snoopy, or a sock and a shoe. Make enough of these pairs so that there is enough for each student to have one card. Be sure to cut these objects out and laminate them. Give each student one card and tell them to find their match. Once they have done so, they return the cards to you and can get started on their collaborative activity, stress-free!</p>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/cffbcec0.jpg",
+    "time_stamp": "2015-10-12T23:40:02Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 46,
+  "fields": {
+    "name": "Teaching Tips: Handy Helpers",
+    "category": 3,
+    "user_name": "Flordeliza Dayrit",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/bc929035.png",
+    "short_description": "help kids develop organizational skills",
+    "text": "<article class=\"featured-article\">\r\n<h4 class=\"article-title\">Teaching Tips: <span style=\"color:#FF0000;\">Handy Helpers</span></h4>\r\n\r\n<article class=\"featured-article\">\r\n<p>Some students cannot handle gathering materials like crayons, scissors, and glue when working on a group or individual project. So, help them develop their organizational skills by stuffing handy helpers with everything your students need and place them in the center of each group. Handy helpers can be containers that have segmented compartments that can hold glue sticks, scissors, and packs of crayons, colored pencils, markers, tape, (etc.) in each section. Students can easily access these items and will always have them handy. They will not have to empty their desk to search for them and hold up the rest of the class when you wish to move on with your lesson. The containers can be purchased for a small price in bulk, or you can make your own using an old shoe box!</p>\r\n</article>\r\n</article>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/4b1a2361.jpg",
+    "time_stamp": "2015-09-15T14:47:35Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 47,
+  "fields": {
+    "name": "Teaching Tips: Student Station",
+    "category": 3,
+    "user_name": "Flordeliza Dayrit",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/e2ca57fb.png",
+    "short_description": "short on supplies?",
+    "text": "<article class=\"featured-article\">\r\n<h4 class=\"article-title\">Teaching Tips: <span style=\"color:#FF0000;\">Student Station</span></h4>\r\n\r\n<p>Students need a lot of supplies in order to be successful with their academic pursuits. So, help them out! Set up a student station in your room. A great place to do this is right next to your pencil sharpener. Place a basket by it containing everything your students need-pencils, erasers, white out, paper clips, tape, a stapler (etc.). This way they can have what they need all in one place and they do not have to interrupt you to ask for a supply. It encourages them to be prepared for class and to help themselves when they need to.</p>\r\n</article>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/7455abed.jpg",
+    "time_stamp": "2015-09-22T23:50:15Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 48,
+  "fields": {
+    "name": "Teaching Tips: Standardized Test Lingo ",
+    "category": 3,
+    "user_name": "Flordeliza Dayrit",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/4d07f627.png",
+    "short_description": "It can be very confusing...",
+    "text": "<article class=\"featured-article\">\r\n<h4 class=\"article-title\">Teaching Tips: <span style=\"color:#008000;\">Standardized Test Lingo</span></h4>\r\n\r\n<p>State Standardized Tests can be confusing for parents. They want to help out at home, but just are not sure how to do so. In the beginning of the school year, preferably at an Open House or a Parent Teacher Conference; put together a packet full of terms and topics that students must know in order to be successful on the test. You can even include some skill worksheets and websites to visit to reinforce a concept. It will help parents understand what their children will need to know and will help them have a discussion or the ability to create learning experiences for them at home to help them do their best on the test.</p>\r\n</article>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/51eaba1c.jpg",
+    "time_stamp": "2015-10-21T23:53:25Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 49,
+  "fields": {
+    "name": "Teaching Tips: Totally Token",
+    "category": 3,
+    "user_name": "Flordeliza Dayrit",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/4b24b63e.png",
+    "short_description": "reward system",
+    "text": "<article class=\"featured-article\">\r\n<h4 class=\"article-title\">Teaching Tips: <span style=\"color:#FF0000;\">Totally Token</span></h4>\r\n\r\n<p>A token system is a great way to promote classroom management, especially when your students are seated in rows or groups. At the beginning of class, start each group or row off with zero tokens. Throughout the day, when students seated within the group or row are demonstrating appropriate behavior or are doing exceptional work, place a token in their cup. At the end of the day, count up each group or row&rsquo;s tokens to determine who had the most, because they are the winners for the day. Reward the winning students with a trip to the classroom prize basket or by handing out a small, sweet treat!</p>\r\n</article>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/91f95b0b.jpg",
+    "time_stamp": "2015-10-30T23:57:52Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 50,
+  "fields": {
+    "name": "Parenting Tips: A Sense of Entitlement",
+    "category": 3,
+    "user_name": "Flordeliza Dayrit",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/52be7e35.png",
+    "short_description": "just because they are children...",
+    "text": "<h4 class=\"article-title\">Parenting Tips: A <span style=\"color:#FF0000;\">Sense of Entitlement</span></h4>\r\n\r\n<p><strong>Children have a built in sense of entitlement and must be taught that they are not given things just because they are your children.</strong>&nbsp; To teach this concept, have your children earn a special item they want.&nbsp; For example, if your child has asked you for a new toy that they saw at the store, give them extra chores with a monetary value attached to it.&nbsp; When they have saved up enough money, they can then purchase the item.</p>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/19dd6012.jpg",
+    "time_stamp": "2015-10-11T00:04:15Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 51,
+  "fields": {
+    "name": "Parenting Tips: Help Kids Establish Work Ethics",
+    "category": 3,
+    "user_name": "Flordeliza Dayrit",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/237e560b.png",
+    "short_description": "starting young",
+    "text": "<h4 class=\"article-title\">Parenting Tips: <span style=\"color:#FF0000;\">Help Kids Establish Work Ethics</span></h4>\r\n\r\n<p><strong>Instill a work ethic at a young age to develop lifelong skills.</strong>&nbsp; When money and material items are handed to children at a young age, the tradition carries over in to the adolescent years and adulthood.&nbsp; Start teaching your children when they are young that they need to earn their rewards through chores, good behavior and respectfulness.&nbsp;&nbsp;&nbsp; This will help them learn money management and the hard truth that hard work is what pays off in life.</p>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/c823f20d.jpg",
+    "time_stamp": "2015-10-12T00:07:44Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 52,
+  "fields": {
+    "name": "Parenting Tips: Screen Time",
+    "category": 3,
+    "user_name": "Flordeliza Dayrit",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/c650747b.png",
+    "short_description": "set a time schedule",
+    "text": "<article class=\"featured-article\">\r\n<h4 class=\"article-title\">Parenting Tips: <span style=\"color:#FF0000;\">Screen Time</span></h4>\r\n\r\n<p><strong>Don&#39;t limit screen time to strictly a time schedule. </strong>&nbsp;Instead, to really have an effective means of controlling the amount of screen time your child enjoys, limit the when rather than the time.&nbsp; For instance, no screen time until homework and chores are completed, no screen time during special family times (like the dinner table) and no electronics in the bedroom at bedtime.&nbsp;&nbsp; By limiting the when, you allow your children some freedom in the time, which results in fewer arguments.</p>\r\n</article>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/37557f2b.jpg",
+    "time_stamp": "2015-10-24T00:11:53Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 53,
+  "fields": {
+    "name": "Parenting Tips: Internet isn't kid-friendly",
+    "category": 3,
+    "user_name": "Flordeliza Dayrit",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/60f74445.png",
+    "short_description": "that's why we developed Muslim Kids TV",
+    "text": "<article class=\"featured-article\">\r\n<h4 class=\"article-title\">Parenting Tips: <span style=\"color:#FF0000;\">Internet isn&#39;t kid friendly</span></h4>\r\n\r\n<p><strong>The Internet isn&#39;t kid-friendly but children don&#39;t understand this important fact</strong>.&nbsp; As a parent, it is your job to teach internet safety.&nbsp; Before you hand a tablet or phone with internet capabilities over to your child, discuss some internet safety aspects such as not giving out personal information, not sharing personal photos or not visiting unapproved websites.&nbsp; Muslim Kids TV is a safe online site for your kids!&nbsp; Try it out today - www.muslimkids.tv</p>\r\n</article>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/7e05f79f.jpg",
+    "time_stamp": "2015-10-29T11:00:00Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 54,
+  "fields": {
+    "name": "Parenting Tips: Let's Talk About It",
+    "category": 3,
+    "user_name": "Flordeliza Dayrit",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/42376526.png",
+    "short_description": "teaching kids about racism",
+    "text": "<h4 class=\"article-title\">Parenting Tips: Let&#39;s Talk About It</h4>\r\n\r\n<article class=\"featured-article\">\r\n<p><strong>Don&#39;t be afraid to bring racism up with your children. </strong>&nbsp;By talking about the different ethnic groups and discussing current events in the world of racism, you open the door to important conversations.&nbsp; Don&#39;t assume that because your child has never brought up the subject that they don&#39;t think of it.</p>\r\n</article>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/a4165ba4.jpg",
+    "time_stamp": "2015-11-02T12:00:00Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 55,
+  "fields": {
+    "name": "Parenting Tips: Sleep",
+    "category": 3,
+    "user_name": "Flordeliza Dayrit",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/59f7bb29.png",
+    "short_description": "important part of childhood growth",
+    "text": "<article class=\"featured-article\">\r\n<h4 class=\"article-title\">Parenting Tips: Sleep</h4>\r\n\r\n<p><strong>Sleep is an important part of childhood growth.</strong>&nbsp; If your child isn&#39;t getting adequate sleep (8 to 10 hours a night) you may need to make some changes.&nbsp; If sleep is a challenge, try a few different techniques to help them fall asleep.&nbsp; Noise machines, less lighting, and no bedtime snacks are a great place to start.&nbsp;</p>\r\n</article>\r\n\r\n<a target=\"_blank\" href=\"https://muslimkidstv.leadpages.co/leadbox/1457aaa73f72a2%3A16e5125ff346dc/5682747733442560/\">Click Here to Subscribe</a><script data-leadbox=\"1457aaa73f72a2:16e5125ff346dc\" data-url=\"https://muslimkidstv.leadpages.co/leadbox/1457aaa73f72a2%3A16e5125ff346dc/5682747733442560/\" data-config=\"%7B%7D\" type=\"text/javascript\" src=\"https://muslimkidstv.leadpages.co/leadbox-960.js\"></script>",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/449d06d4.jpg",
+    "time_stamp": "2015-11-12T01:27:39Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 56,
+  "fields": {
+    "name": "Parenting Tips: Set The Example",
+    "category": 3,
+    "user_name": "Flordeliza Dayrit",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/8bf7d87a.jpg",
+    "short_description": "setting the example screen time vs outdoor",
+    "text": "<h2>Parenting Tips: <span style=\"color:#FF0000;\">Set The Example</span></h2>\r\n\r\n<p><strong>Set the example of what is acceptable screen time for your kids.</strong>&nbsp;&nbsp; If they see you checking your email at the dinner table, they are going to assume that it is okay for them to do as well.&nbsp; Your children look to you for guidance and will follow your lead.&nbsp; If you don&#39;t want them watching TV on a beautiful sunny day, don&#39;t turn it on for yourself.&nbsp; Instead, head outside for some special family time.</p>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/38672f4f.jpg",
+    "time_stamp": "2016-05-04T18:17:53Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 57,
+  "fields": {
+    "name": "Parenting Tips: Everybody Loves Competitiveness (a little bit)",
+    "category": 3,
+    "user_name": "Flordeliza Dayrit",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/af2d702f.jpg",
+    "short_description": "Helping kids learn competitiveness",
+    "text": "<h3 class=\"article-title\">Parenting Tips: <span style=\"color:#FF0000;\">Everybody Loves Competitiveness</span> <span style=\"color:#800080;\">(a little bit)</span></h3>\r\n\r\n<p><strong>Everybody loves a little bit of competiveness and when you can combine family fun in to the mix, all the better.&nbsp;&nbsp;&nbsp; </strong>Buy everyone in the house a pedometer (or take turns with just one, switching out every couple of days)&nbsp; At the end of the week, the person with the most steps wins a small agreed upon prize.</p>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/6daf970d.jpg",
+    "time_stamp": "2016-05-04T18:25:11Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 58,
+  "fields": {
+    "name": "Parenting Tips: Accessing Junk Foods",
+    "category": 3,
+    "user_name": "Flordeliza Dayrit",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/83a2cda2.jpg",
+    "short_description": "Helping kids with good heathy food choices",
+    "text": "<h2 class=\"article-title\">Parenting Tips: <span style=\"color:#FF0000;\">Accessing Junk Foods</span></h2>\r\n\r\n<p><strong>If you don&#39;t want your kids filling up on junk food, don&#39;t make it accessible</strong>.&nbsp; It&#39;s simple really.&nbsp; The parents buy the groceries so instead of buying chips, cookies and soda purchase fruits, juice and whole-wheat crackers for snacking.&nbsp; Then when they are able to have chips, cookies or soda, it will be a special treat rather than the expected.</p>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/5bcc3dea.jpg",
+    "time_stamp": "2016-05-04T18:29:51Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 59,
+  "fields": {
+    "name": "Teaching Tips: Green Lights, Red Lights",
+    "category": 3,
+    "user_name": "Flordeliza Dayrit",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/21a5da3f.jpg",
+    "short_description": "building confidence",
+    "text": "<h2 class=\"article-title\">Teaching Tips: <span style=\"color:#008000;\">Green Lights, Red Lights</span></h2>\r\n\r\n<p>Reading independently can be frustration for some students. They may not know how to pronounce certain words, what the words mean, or they may finish a chapter or several paragraphs and may not know what they just read. When students are reading on their own, give them a card that has a red light on one side, and a green light on the other. As you circulate around the room, you can stop and assist a struggling student with one of these independent aspects of reading when they put the red light side on their desk. If students are reading fluently and comprehending what they are reading, they can keep the green light side up to silently signal to you that they don&rsquo;t need any help!</p>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/4efa38dc.jpg",
+    "time_stamp": "2016-05-04T18:37:50Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 60,
+  "fields": {
+    "name": "Teaching Tips: It's the Little Things That Counts!",
+    "category": 3,
+    "user_name": "Flordeliza Dayrit",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/26f62d1f.jpg",
+    "short_description": "modelling behaviour",
+    "text": "<h2 class=\"article-title\">Teaching Tips: <span style=\"color:#008000;\">It&#39;s The Little Things That Counts!</span></h2>\r\n\r\n<p>Organization is important in all grade levels, but especially when students begin switching classes for different subjects (generally around third grade). Help students with this transition by modeling certain behaviors. Actually walk them through the process of how they should line up at a classroom door and how they should hold their books and belongings (large items on bottom, small items on top) so they don&rsquo;t drop them on their hallway transition. You can also teach them to prepare for class by sharpening not one, not two, but three or four pencils so they won&rsquo;t have to get up during instruction to sharpen any. It&rsquo;s the small stuff that counts and that a teacher often looks over because they assume their students know how to do these little things, but sometimes it&rsquo;s the little things that can make all the difference.</p>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/5cde762f.jpg",
+    "time_stamp": "2016-05-04T18:50:49Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 61,
+  "fields": {
+    "name": "Teaching Tips: Quality of Work",
+    "category": 3,
+    "user_name": "Flordeliza Dayrit",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/2a23563d.jpg",
+    "short_description": "show quality of work",
+    "text": "<h2 class=\"article-title\">Teaching Tips: Quality of Work</h2>\r\n\r\n<p>Student work is often ranked on a rating scale. Four is usually the highest they can earn and one is the lowest (zero signifies that students did not do any work at all). Many students have difficulty visualizing what an example of &ldquo;4&rdquo; work looks like. So, show them! Draw a detailed picture that illustrates a short but detailed, error-free story that is written neatly. Label this a four. Recreate the same picture but with less details. Same with the story. Repeat this process until a &ldquo;1&rdquo; is a plain picture, uncolored and the story is merely a line or two. Students will be able to see the visual difference between high quality work and work that little effort is put into. Once they understand this rating scale, they can work hard to achieve a certain level that is set for them.</p>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/de3656a7.jpg",
+    "time_stamp": "2016-05-04T18:56:27Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 62,
+  "fields": {
+    "name": "Kids Healthy Living Tips: Encourage their sporting efforts",
+    "category": 3,
+    "user_name": "Flordeliza Dayrit",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/24553d32.jpg",
+    "short_description": "what sports can teach kids",
+    "text": "<h2 class=\"article-title\">Kids Healthy Living Tips: Encourage Their Sporting Efforts</h2>\r\n\r\n<p>Sports have so many benefits for kids that make it a great extracurricular activity for children. An important part of raising kids can be taught through healthy competition. Sports can teach children to work hard and practice to become better at something, while also showing them how to compete in a healthy way and interact with others. Moreover, sports get your child&rsquo;s heart pumping and provide a great form of exercise in a fun way. Basketball, swimming, tennis and track offer some of the best cardiovascular workouts out of all children&rsquo;s sports, but anything that gets them up and moving is beneficial.</p>\r\n\r\n<article class=\"featured-article\"><br />\r\n&nbsp;</article>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/a4c5e13f.jpg",
+    "time_stamp": "2016-05-04T19:00:45Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 63,
+  "fields": {
+    "name": "Kids Healthy Living: Make Your Backyard Kid-Friendly",
+    "category": 3,
+    "user_name": "Flordeliza Dayrit",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/23100ef9.jpg",
+    "short_description": "creative spaces in backyard",
+    "text": "<h2 class=\"article-title\">Kids Healthy Living Tips: Make Your Backyard Kid-Friendly</h2>\r\n\r\n<p>If you are short on time or have limited exercise resources around you, your own backyard can be the best fitness resource for your entire family. As it was mentioned in an earlier parenting tip, simply running around the yard and playing adds physical activity for your child but there are so many ways to make your backyard more exercise friendly. A swing set, in particular, can offer great exercise for younger children. Pumping their legs on the swing, climbing up and down the slide ladder and swinging across the monkey bars are great cardiovascular movements. Adding in a trampoline, volleyball net or even a swimming pool can offer additional types of exercise from the comfort of your own yard.</p>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/311d04fd.jpg",
+    "time_stamp": "2016-05-04T19:05:57Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 64,
+  "fields": {
+    "name": "Kids Healthy Living: Ride a Bike",
+    "category": 3,
+    "user_name": "Flordeliza Dayrit",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/57034369.jpg",
+    "short_description": "reduce carbon footprints",
+    "text": "<h2 class=\"article-title\">Kids Healthy Living: Ride a Bike</h2>\r\n\r\n<p>Not only does driving a car omit damaging fumes for the environment but it also provides absolutely no physical activity. Riding a bike on the other hand causes absolutely no harm to the environment and packs a great work out at the same time. If your child has a bike, encourage them to ride a bike whenever possible instead of having you drop them off. One of scariest times when raising kids is deciding when your child is old enough to go off on their own so make sure that you feel they are ready before trying this parenting tip. In the alternative, you can ride your bike along with them until they are ready to ride on their own.</p>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/e6985472.jpg",
+    "time_stamp": "2016-05-04T19:09:31Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 65,
+  "fields": {
+    "name": "Kids Healthy Living: Cut Sugary Drinks",
+    "category": 3,
+    "user_name": "Flordeliza Dayrit",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/cf27fa71.png",
+    "short_description": "healthy choices",
+    "text": "<h2 class=\"article-title\">Kids Healthy Living Tips:<span style=\"color:#800080;\"> Cut Sugary Drinks</span></h2>\r\n\r\n<p>Sugary drinks such as soda and sweetened juices are causing more problems for your kids than you probably realize. Excess sugar can negatively impact your child&rsquo;s health by contributing to obesity, tooth decay and nutritional deficiencies. In addition, it can also cause behavioral problems such as mood swings, lack of focus and bouts of hyperactivity. Since soda has absolutely no nutritional value, it has no place in anyone&rsquo;s diet &ndash; regardless of age. One of the best parenting tips for your child&rsquo;s nutritional needs is to ban soda from the home and choose only natural fruit juices, milk and water.</p>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/c7dc42a6.png",
+    "time_stamp": "2016-05-04T19:15:39Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 66,
+  "fields": {
+    "name": "Kids Healthy Living: Proper Hydration",
+    "category": 3,
+    "user_name": "Flordeliza Dayrit",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/c53f13b9.png",
+    "short_description": "offer enough water",
+    "text": "<h2 class=\"article-title\">Kids Healthy Living Tips: Proper Hydration</h2>\r\n\r\n<p>Most people, including children, do not drink enough water. The general rule of thumb is 8 glasses of 8 ounces of water a day but may be a couple of glasses less for smaller children. Proper hydration is important for energy and mental function. Raising kids to reach for a glass of water instead of any other beverage is the best way to ensure they are drinking enough water. If you follow parenting tip number 1 above, then choosing water should be an easy choice. Don&rsquo;t forget to offer more water when your child is playing or expending extra energy.</p>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/0530f35c.png",
+    "time_stamp": "2016-05-04T19:27:40Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 67,
+  "fields": {
+    "name": "Kids Healthy Living: Don't Force Certain Foods",
+    "category": 3,
+    "user_name": "Flordeliza Dayrit",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/a055400c.png",
+    "short_description": "some kids just dont like certain foods",
+    "text": "<article class=\"featured-article\">\r\n<h2>Healthy Living Tips: <span style=\"color:#800080;\">Don&#39;t Force Certain Foods</span></h2>\r\n\r\n<p>Raising kids to eat right can be incredibly difficult and frustrating. If you have ever watched your child push food around on their plate for 20 minutes then you may have also found yourself threatening them to finish their food&hellip;or else. You may think you are doing the right thing by forcing your child to eat their food but you can actually be doing more harm. If your child refuses to eat the spinach on their plate then don&rsquo;t force them. This will only instill their dislike of the vegetable and may cause them to become even pickier. Instead, find another healthy option to replace it. Offer up another vegetable that you know they like and they will still reap the health benefits.</p>\r\n</article>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/e9a1160d.png",
+    "time_stamp": "2016-05-04T19:30:49Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 68,
+  "fields": {
+    "name": "Support from Endowments",
+    "category": 1,
+    "user_name": "Muslim Kids TV",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/63fef23a.png",
+    "short_description": "Developing Sustainable Children's Media",
+    "text": "<article class=\"featured-article\">\r\n<h2>Developing Sustainable Children&#39;s Media</h2>\r\n</article>\r\n\r\n<p>One of the greatest challenges in Islamic media is the costs associated with producing content. We live in a world dominated by international media companies that produce TV programs, films and video games with budgets in hundreds of millions of dollars.</p>\r\n\r\n<h3>An example is Disney&#39;s animated blockbuster <strong>Frozen.</strong></h3>\r\n\r\n<p><strong><img alt=\"\" src=\"/media/public/media/ckeditor/2016/05/18/disney-frozen.jpg\" style=\"width: 600px; height: 337px;\" /></strong></p>\r\n\r\n<h3>The feature film cost $1.5 million and according to Disney made $1.2 billion at the box office.</h3>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>This makes for the toughest of competition.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Muslim Kids TV hopes to hear this month regarding a proposal it has before the Ministry of Awqaf and Islamic Affairs in one of the GCC countries. We ask Allah SWT that the very modest Muslim Kids TV proposal will be accepted.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Millions of children around the world have benefited from Muslim Kids TV. As a community we must make every effort to support and build the institutions that serve to educate future generations.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Ministry of Awqaf support will enable further development of the Muslim Kids TV platform and the production of much needed new content.</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/e29af984.jpg",
+    "time_stamp": "2016-04-01T22:49:11Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 69,
+  "fields": {
+    "name": "Muslim Kids TV profiled on Salaam Gateway",
+    "category": 1,
+    "user_name": "Muslim Kids TV",
+    "avatar": "14bfa6bb14875e45bba028a21ed38046/e863f39a.png",
+    "short_description": "Global Islamic Economy Gateway",
+    "text": "<article class=\"featured-article\">\r\n<p class=\"article-title\">Muslim Kids TV profiled on Salaam Gateway</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><a href=\"http://www.salaamgateway.com\" target=\"_blank\">Salaam Gateway</a> is the Global Islamic Economy Gateway. The website is amazing with up to date information on the latest from the Islamic economy.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><a href=\"http://mediarecreation.salaamgateway.com/en/media-recreation/story/CASE_STUDYMuslim_Kids_TV_attracting_thousands_of_subscribers_through_interactive_Islamic_programming-SALAAM12052016052721/\" target=\"_blank\">The Muslim Kids TV case study</a> highlights the development and progress of Muslim Kids TV as a halal investment initiative. Muslim Kids TV believes the profile on Salaam Gateway is an excellent validation of our work in the area of children&rsquo;s education and entertainment. To read the full case study you must become a member of the Salaam Gateway community - membership is free.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Salam Gateway is operated by Thomson Reuters that describe themselves as, &ldquo;The Answer Company. The intelligence, technology and human expertise you need to find trusted answers.&rdquo;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Thomson Reuters is one of the pioneering international companies that have recognized the amazing potential in the Islamic economy. They publish the annual report State of the Global Islamic Economy. The Reuters News Agency is one of the companies of Thomson Reuters.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Salaam Gateway is also a project of the Dubai Islamic Economy Centre. The vision of the Islamic Economy Centre is to position Dubai as the Capital of the Islamic Economy.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>If you would like to learn more about investing in Muslim Kids TV please email info@MuslimKids.TV.</p>\r\n</article>\r\n",
+    "thumbnail": "14bfa6bb14875e45bba028a21ed38046/08469bd2.jpg",
+    "time_stamp": "2016-05-12T23:58:47Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 70,
+  "fields": {
+    "name": "Muslim Kids TV Office in Malaysia",
+    "category": 1,
+    "user_name": "Muslim Kids TV",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/46afea65.png",
+    "short_description": "Very Happy Announcement!!!",
+    "text": "<h1 class=\"article-title\">Muslim Kids TV Office in Malaysia</h1>\r\n\r\n<h3>We are very please to announce the opening of a Muslim Kids TV office in Malaysia.</h3>\r\n\r\n<p><img alt=\"MKTV Malaysia Office\" src=\"/media/public/media/ckeditor/2016/05/19/img_2672.JPG\" style=\"width: 750px; height: 463px;\" /></p>\r\n\r\n<h2>&nbsp;</h2>\r\n\r\n<h2>Our first month of operations in Malaysia has been tremendous.</h2>\r\n\r\n<p>The positive response from Malaysian families has been overwhelming. The Muslim Kids TV office in Malaysia will focus on serving the needs of families. In addition, the strong Islamic pre-school and primary school market in Malaysia is an excellent fit for Muslim Kids TV. The content and interactive nature of Muslim Kids TV aligns perfectly with curriculum and teaching requirements of schools seeking to add digital resources to the classroom. &nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&quot;Since the launch of Muslim Kids TV two years ago, we have focused on the needs of Muslim families living in Western countries. Muslim Kids TV highest membership rates are from North America and UK,&quot; states Muslim Kids TV co-founder Michael Milo.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Flordeliza Dayrit, MKTV co-founder discussed the reason for choosing Malaysia. &quot;One thing we have learned over the past two years is that we live in a globalized world. The issues facing Muslim families around the world are very similar. Families everywhere have expressed the need to support their children with the highest quality content that reflects Muslim beliefs and values. Muslims in Malaysia have an excellent focus on the development of children. So we see that the office there as an excellent fit.&quot;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Malaysia is also the hub of Islamic content in the Muslim world. Stay tuned as many new shows on Muslim Kids TV have been produced from Malaysia.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Special thanks to MDEC (Malaysia Digital Economy Corporation) and the Canadian Trade Commission in Malaysia for assisting in connecting Muslim Kids TV to the thriving media and animation community in Malaysia.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><img alt=\"MDEC Malaysia\" src=\"/media/public/media/ckeditor/2016/05/19/img_2551.JPG\" style=\"width: 500px; height: 375px;\" /></p>\r\n\r\n<h5>MDEC (Malaysia Digital Economy Corporation) staff and Michael Milo</h5>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>To make an appointment to visit the MKTV office call +60 12 243 8420.</p>\r\n\r\n<h3>Muslim Kids TV Malaysia<br />\r\nNo 5C, Town Park 5, Jalan Suarasa 8/7,<br />\r\nBandar Tun Hussein Onn,<br />\r\n43200<br />\r\nCheras Selangor</h3>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/b3c9e024.jpg",
+    "time_stamp": "2016-04-29T22:09:05Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 71,
+  "fields": {
+    "name": "Developing Children\u2019s Media cooperatively - TV AlHijrah Malaysia & Muslim Kids TV",
+    "category": 1,
+    "user_name": "Muslim Kids TV",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/e52e3763.png",
+    "short_description": "Cooperation with TV Al Hijrah",
+    "text": "<h4 class=\"article-title\">Developing Children&rsquo;s Media cooperatively - TV AlHijrah Malaysia &amp; Muslim Kids TV</h4>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Muslim Kids TV would like to welcome and congratulate TV AlHijrah&rsquo;s new CEO Tuan Haji Izelan.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>TV Al-Hijrah is Malaysia&rsquo;s state-owned free-to-air television network that broadcasts values-based and Islamic programming.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>TV AlHihrah and Muslim Kids TV are in negotiations on the cooperative development of children&rsquo;s media for the channel. Both companies share the same goals of empowering and developing our future generations.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Muslim Kids TV will be launching a number of new children&rsquo;s shows for Ramadan on TV AlHijrah. Over the coming year we hope for greater collaboration on the development of children&rsquo;s media both broadcast and online.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><img alt=\"\" src=\"/media/public/media/ckeditor/2016/05/19/tvah-and-mktv-partnership.jpg\" style=\"width: 300px; height: 282px; float: left; margin-left: 10px; margin-right: 10px;\" />TV AlHijrah and Muslim Kids TV believe that by working cooperatively they can have a much greater presence in the area of children&rsquo;s media both in Malaysia and internationally.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Watch for updates on this exciting new partnership!</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h5>TV AlHijrah&rsquo;s CEO Tuan Haji Izelan &amp; Muslim Kids TV CEO Michael Milo</h5>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/0758cdc3.jpg",
+    "time_stamp": "2016-05-10T23:04:15Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 74,
+  "fields": {
+    "name": "Muslims in the Philippines",
+    "category": 1,
+    "user_name": "Muslim Kids TV",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/87ea695f.png",
+    "short_description": "Many fruitful meetings in the Philippines",
+    "text": "<h4 class=\"article-title\">The Philippines - a nation in transition</h4>\r\n\r\n<p>The country is shared by Christians and Muslims. Islam was the first monotheistic religion in the Philippines with early historical records showing contact between the island population and Muslims traders from Arabian, Persian, Chinese and other Malay lands as early as the 14th century. Today Muslims make up about 12% of the population with a growing number of Filipino Muslim converts.</p>\r\n\r\n<p>While the southern Muslim region in the Philippines is under-developed, there is renewed emphasis by the government to focus development in Muslim regions.</p>\r\n\r\n<p>Muslim Kids TV founders held a series of meetings in the Philippines to explore ways Muslim Kids TV may be integrated into development work and the education system.</p>\r\n\r\n<p>Muslim Kids TV met with representatives from the National Commission on Muslim Filipinos. NCMF advocates for the rights of the Muslim Filipinos and reports directly to the Office of the President of the Philippines. A meeting was also held with Director General Jose Mari Oquinena of the Philippines Information Agency to discuss ways MKTV may be used to increase understanding among all children about Muslim faith and values. The Director General commented that, &quot;Muslim Kids TV is an excellent initative and I see it as a way to bring the world to the Muslim children in the Philippines. It is also a great way to bring all our young brothers and sister from all faiths together as one country.&quot;</p>\r\n\r\n<p><img alt=\"National Commission on Muslim Filipinos\" src=\"/media/public/media/ckeditor/2016/05/21/mktv-meeting-w-ncmf.jpg\" style=\"width: 650px; height: 334px;\" /></p>\r\n\r\n<h5>Meeting with National Commission on Muslim Filipinos</h5>\r\n\r\n<p>Meetings were also held with representatives from the Department of Education from Manila and the Autonomous Region of Muslim Mindanao. Muslim Kids TV will be an excellent fit as part of the Arabic Language Islamic Values Education (ALIVE) curriculum in the Philippines.&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><img alt=\"\" src=\"/media/public/media/ckeditor/2016/05/21/mktv-meeting-w-national-council-for-childrens-television.jpg\" style=\"width: 650px; height: 488px;\" /></p>\r\n\r\n<h5>Meeting with National Council for Children&#39;s Television.</h5>\r\n\r\n<p>There are many efforts underway to improve the educational opportunities for Muslims in the Philippines also being carried out by NGOs like UNICEF and Asia Foundation.</p>\r\n\r\n<p>We look forward to working together with some of these partners in bringing Muslim Kids TV to the Philippines.</p>\r\n\r\n<p>A special thanks to the Canadian Trade Commission in Manila for facilitating these meetings for Muslim Kids TV.</p>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/7d411eb3.jpg",
+    "time_stamp": "2016-04-21T03:09:24Z",
+    "featured": false
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 75,
+  "fields": {
+    "name": "Kuala Lampur International Book Fair",
+    "category": 1,
+    "user_name": "Muslim Kids TV",
+    "avatar": "6adf97f83acf6453d4a6a4b1070f3754/e089f776.png",
+    "short_description": "Our first event in Malaysia",
+    "text": "<h4 class=\"article-title\">Kuala Lampur International Book Fair</h4>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>The Kuala Lampur International Book Fair is an annual event in Malaysia attracting publishers, merchants and avid book and educational enthusiasts from across the country and around the world.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><img alt=\"\" src=\"/media/public/media/ckeditor/2016/05/22/screen-shot-2016-05-22-at-83911-am_1.png\" style=\"width: 650px; height: 449px;\" /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>The KLIBF is a testiment to the love Malaysians have with reading and self improvement. There were many vendors on site catering to young audiences. Muslim Kids TV was among this group. Muslim Kids TV was unique among the vendors being the first online, interactive Internet TV focusing on Islamic values for children.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Participants gave a very warm welcome to Muslim Kids TV.</p>\r\n\r\n<p><img alt=\"\" src=\"/media/public/media/ckeditor/2016/05/22/klibf-kids_1.JPG\" style=\"width: 650px; height: 391px;\" /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Watch for Muslim Kids TV at exhibitions around the country and at local bookstores as well!</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Muslim Kids TV would like to welcome Mr. Harun Mohamed - the manager of Muslim Kids TV Malaysia office. If you would like to reach Mr. Harun please call +60 19 240 3551.</p>\r\n",
+    "thumbnail": "6adf97f83acf6453d4a6a4b1070f3754/403d1dda.jpg",
+    "time_stamp": "2016-05-03T14:20:52Z",
+    "featured": false
+  }
+}
+]

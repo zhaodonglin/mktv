@@ -1,0 +1,68 @@
+import sys
+
+from .base import *
+
+DEBUG = True
+SERVER_TYPE = 'DEV'
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+SECRET_KEY = 'zrq#q7iq!wu3=6=l-367b75%ymv^5!v7ac3oy*=p!ooq1$wllt'
+
+TESTING = sys.argv[1:2] == ['test']
+
+DOMAIN = 'localhost:8000'
+
+STATIC_ROOT = rel('apps', 'common', 'static')
+
+if TESTING:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': ':memory:'
+        }
+    }
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql_psycopg2',
+            'NAME': 'mktv',
+            'USER': 'postgres',
+            'PASSWORD': 'p'
+        }
+    }
+
+HAYSTACK_CONNECTIONS = {
+    'default': {'ENGINE': 'haystack.backends.simple_backend.SimpleEngine', },
+}
+
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
+        'LOCATION': 'mktv'
+    },
+    "file_resubmit": {
+        'BACKEND': 'django.core.cache.backends.filebased.FileBasedCache',
+        "LOCATION": FILE_RESUBMIT_URL
+    },
+}
+
+# Uncomment below to improve load speed by using dummy images instead of some media cached images
+THUMBNAIL_DUMMY = True
+
+if not TESTING:
+    # debug toolbar settings
+    # if you working on vagrant use this line in some view to find out address that you should add to INTERNAL_IPS
+    # print("IP Address for debug-toolbar: " + self.request.META['REMOTE_ADDR'])
+    INTERNAL_IPS = ('127.0.0.1', )
+    DEBUG_TOOLBAR_PATCH_SETTINGS = False
+    MIDDLEWARE_CLASSES += ('debug_toolbar.middleware.DebugToolbarMiddleware',)
+
+    INSTALLED_APPS += ('debug_toolbar', 'django_extensions')
+
+    DEBUG_TOOLBAR_CONFIG = {'INTERCEPT_REDIRECTS': False,
+                            'SHOW_TEMPLATE_CONTEXT': True}
+
+TEST_RUNNER = 'common.utils.FastTestRunner'
+
+MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'

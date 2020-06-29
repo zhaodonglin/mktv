@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load static %}
+{% load common_tags %}
+{% block title %}{{ block.super }} > Preview {% endblock title %}
+
+{% block body_class %}
+    body-managing
+{% endblock body_class %}
+
+
+{% block content %}
+        <main >
+            <img src = "{% static page_image %}" alt=""> 
+        </main>
+{% endblock %}
+
+

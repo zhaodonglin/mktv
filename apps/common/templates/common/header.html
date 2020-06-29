@@ -1,0 +1,29 @@
+{% load static %}
+<header class="top-header {% block header_extra_class %}{% endblock %}">
+    <div class="top-header-content">
+        <div class="container">
+            <div class="row">
+                <a href="{% url 'main' %}" class="top-banner col-xs-8 col-sm-5 col-lg-6">
+                    <img class="logo" src="{% static 'img/white-logo.png' %}" alt=''>
+                </a>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <nav class="navbar {% if not request.user.is_parent %}wide-items{% endif %} navbar-static-top" role="navigation">
+        <div class="container">
+            <div class="row">
+                <ul class="nav navbar-nav {% if request.user.is_authenticated %}authenticated{% endif %} {% if request.is_cordova %}cordova{% endif %}">
+                    <li><a href="{% url 'single_page_main' %}#blog" class="nav-blog"><span>Blog</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    {% block extra_header %} {% endblock extra_header %}
+</header>

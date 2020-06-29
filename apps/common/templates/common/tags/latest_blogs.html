@@ -1,0 +1,16 @@
+{% for post in posts %}
+    <div class="media">
+        <a class="pull-left" href="#">
+            <img class="media-object" src="{{ post.get_avatar_url }}" alt="No img">
+        </a>
+
+        <div class="media-body">
+            <a href="#" class="media-header">
+                <h4 class="media-heading">{{ post.name }}</h4>
+                <h5 class="media-subheading">Posted {{ post.time_stamp }} by {{ post.user_name }}</h5>
+            </a>
+
+            <p class="media-text">{{ post.short_description }}</p>
+        </div>
+    </div>
+{% endfor %}

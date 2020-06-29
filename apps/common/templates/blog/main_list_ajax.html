@@ -1,0 +1,39 @@
+{% load static %}
+{% load blog_tags %}
+{% load common_tags %}
+
+{% if request.is_ajax and not request.GET.page %}
+    <div class="post-item InfiniteScroll"
+         data-url="{% url 'blog:main' %}"
+         data-number_pages="{{ paginator.num_pages }}"
+         data-loaded_pages="1"
+         data-append_el=".item">
+{% endif %}
+
+{% for post in object_list %}
+    <div class="item">
+        <a href="{{ post.get_single_page_url }}">
+            <div class="intro">
+                <div class="item-image">
+                    <img src="{{ post.post_list_thumbnail_url }}" alt="Cannot load the image">
+                </div>
+                <div class="item-info">
+                    {{ post.name }}
+                </div>
+            </div>
+            <div class="detail">
+                <div class="description">
+                    {{ post.short_description }}
+                </div>
+                <div class="action">
+                    Read more <span class="icon-view"></span>
+                </div>
+            </div>
+        </a>
+    </div>
+{% empty %}
+    <h2 class="notify">No posts in this category</h2>
+{% endfor %}
+{% if request.is_ajax and not request.GET.page %}
+    </div>
+{% endif %}

@@ -1,0 +1,43 @@
+{% extends 'blog/base.html' %}
+{% load thumbnail %}
+{% load blog_tags %}
+
+{% block wrapper_class %}
+    {{ block.super }}
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <a href="{% url 'single_page_main' %}#blog" class="back-btn">
+            <div class="button-wrap">
+                <i class="icon-back"></i>
+                BACK
+            </div>
+        </a>
+    </div>
+    <section id="post-list-wrap">
+        <div class="container">
+            <div class="row">
+                <div class="sidebar-category col-sm-3 col-sm-push-9">
+                    <div class="list-categories d-flex justify-content-center d-md-block align-">
+                        {% display_category_right category %}
+                    </div>
+                </div>
+                <div class="posts-wrap col-sm-9 col-sm-pull-3">
+                    <div class="header d-flex justify-content-between align-items-center">
+                        <h1 class="title">{{ category.name }}</h1>
+                    </div>
+                    <div id="content-part">
+                        <div class="post-item InfiniteScroll"
+                             data-url="{{ category.get_absolute_url }}"
+                             data-number_pages="{{ paginator.num_pages }}"
+                             data-loaded_pages="1"
+                             data-append_el=".item">
+                            {% include 'blog/post_list_ajax.html' %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock content %}

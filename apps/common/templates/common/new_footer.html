@@ -1,0 +1,36 @@
+{% load static %}
+
+<footer class="new-landing-footer bg-white mt-5">
+    <div class="container">
+        <div class="row d-lg-flex align-items-center">
+            <div class="col-xs-12 col-md-6 col-lg-3 logo-footer">
+                <img src="{% static 'img/logo.svg' %}" alt=''>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-6">
+                <h3>
+                    Muslim Kids TV is the first Islamic internet TV for children.<br>
+                    Be the best you can be on Muslim Kids TV.
+                </h3>
+            </div>
+        </div>
+        <div class="row d-lg-flex align-items-center related-wrapper">
+            <div class="col-xs-12 col-lg-3 text-center kid-child">
+                <a href="https://www.kidsafeseal.com/certifiedproducts/muslimkidstv.html" target="_blank"
+                   class="certificate">
+                    <img border="0" alt="MuslimKids.TV (child login area) is certified by the kidSAFE Seal Program."
+                         src="https://www.kidsafeseal.com/sealimage/1724404467664786227/muslimkidstv_small_darktm.png">
+                </a>
+            </div>
+            <div class="col-xs-12 col-lg-5 text-center">
+                <div class="reserved">© 2006 - {% now "Y" %} Milo Productions Inc. All Rights Reserved</div>
+            </div>
+            <div class="col-xs-12 col-lg-4 footer-links text-center">
+                <div class="d-flex justify-content-center">
+                    <div class="item"><a target="_blank" href="{{ config.FB_URL }}"><img src="{% static 'img/FacebookIcon.png' %}" alt="Facebook"></a></div>
+                    <div class="item"><a target="_blank" href="{{ config.IG_URL }}"><img src="{% static 'img/InstagramIcon.png' %}" alt="Instagram"></a></div>
+                    <div class="item"><a target="_blank" href="{{ config.YT_URL }}"><img src="{% static 'img/YoutubeIcon.png' %}" alt="Youtube"></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

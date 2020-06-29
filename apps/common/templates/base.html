@@ -1,0 +1,93 @@
+{% load i18n %}
+{% load static %}
+{% load common_tags %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, viewport-fit=cover" />
+        <meta name="apple-itunes-app" content="app-id=1189900377">
+        <meta name="google-play-app" content="app-id=com.mktv.steelkiwi.muslimkidstv">
+        <meta property="og:image" content="{% static 'img/Like-What-You-See.png' %}">
+        <meta property="og:description" content="Muslim Kids TV makes learning the most enjoyable aspect of child's life. Your children will enjoy over 15,000 resources including the largest collection of Islamic videos, games and eBooks.">
+        <meta name="description" content="{% block description %}The best Islamic cartoons, videos, songs, games, books, coloring pages and worksheets for children 2-12 years. Available on web, iOS, Android, and SmartTVs - AmazonFireTV, AndroidTV, AppleTV and Roku. Try a FREE 14-day trial TODAY! Making Learning about Islam fun for kids.{% endblock description %}">
+
+        <title>{% block title %}MuslimKids.TV{% endblock title %}</title>
+
+        <link rel="icon" type="image/png" href="{% static 'img/favicon.png' %}"/>
+        <link rel="apple-touch-icon" href="{% static 'img/logo-short.jpg' %}">
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin+Condensed">
+
+        <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+	<link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}" />
+	<link rel="stylesheet" href="{% static 'css/jquery.mCustomScrollbar.min.css' %}" />
+        <link rel="stylesheet" href="{% static 'css/jquery.fancybox.min.css' %}">
+
+        <link rel="stylesheet" href="{% static 'css/styles.css' %}?t=200424">
+        <link rel="stylesheet" href="{% static 'css/utilities.css' %}">
+        <link rel="stylesheet" href="{% static 'css/styles_new.css' %}?t=200601">
+
+        {% block extra_css %}{% endblock %}
+        {% block css %}{% endblock css %}
+
+        <script type="text/javascript">
+            window.mktv = window.mktv || {};
+            window.mktv.env = "{{ server_type }}";
+        </script>
+
+        <script type="text/javascript" src="https://player.vimeo.com/api/player.js"></script>
+        {% if server_type != "DEV" %}
+        <script type="text/javascript" src="{% static 'js/production/base-libs.min.js' %}"></script>
+        {% else %}
+        <script type="text/javascript" src="{% static 'js/jquery-2.0.3.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'js/holder.js' %}"></script>
+        <script type="text/javascript" src="{% static 'js/jalert.js' %}"></script>
+        <script type="text/javascript" src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'js/jquery.form.js' %}"></script>
+        <script type="text/javascript" src="{% static 'js/default.js' %}?t=191004"></script>
+        <script type="text/javascript" src="{% static 'js/owl.carousel.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'js/infinite-scroll.pkgd.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'js/jquery.mCustomScrollbar.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'js/jquery.fancybox.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'noty/packaged/jquery.noty.packaged.js' %}"></script>
+        <script type="text/javascript" src="{% static 'js/common/utils.js' %}"></script>
+        {% endif %}
+
+        <!--Start MKTV scripts-->
+        <script type="text/javascript" src="{% static 'js/main/view-libraries-controller.js' %}?t=200228"></script>
+
+        {% block js %}
+        {% endblock js %}
+        <!--End MKTV scripts-->
+
+        {% block extra_head %}{% endblock extra_head %}
+    </head>
+
+    <body class="{% block body_class %}{% endblock %}">
+
+        {% block messages %}
+            {% include 'massages.html' %}
+        {% endblock messages %}
+
+        <div class="loading lds-hourglass"></div>
+
+        {% block header %}
+            {% include 'common/header.html' %}
+        {% endblock header %}
+
+         <main>
+            {% block content %}{% endblock %}
+         </main>
+
+        {% block footer %}
+            {% include 'common/new_footer.html' %}
+        {% endblock footer %}
+
+        <div id="submit-waiting-modal" class="modal fade">
+            <div class="fancybox-loading"></div>
+        </div>
+    </body>
+
+</html>

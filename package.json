@@ -1,0 +1,26 @@
+{
+  "name": "mktv",
+  "scripts": {
+    "test": "npm run style-js",
+    "scss": "node-sass --watch apps/common/static/scss/styles_new.scss -o apps/common/static/css --source-map true --output-style compressed",
+    "scss-once": "node-sass apps/common/static/scss/styles_new.scss -o apps/common/static/css --source-map true --output-style compressed",
+    "minify": "node scripts/minify.js",
+    "prep-production": "npm run minify && npm run scss-once",
+    "style-js-fix": "eslint --ignore-pattern *.min.js --fix apps/common/static/js/cast apps/common/static/js/main/ apps/common/static/js/games/game-details.js apps/common/static/js/videos/ apps/common/static/js/*/*-component.js apps/common/static/js/learn/ebook-*.js apps/common/static/js/common/logging.js apps/common/static/js/common/utils.js apps/common/static/js/common/polyfill.js apps/common/static/js/announcements/* scripts/*",
+    "style-js": "eslint --ignore-pattern *.min.js apps/common/static/js/cast apps/common/static/js/main/ apps/common/static/js/games/game-details.js apps/common/static/js/videos/ apps/common/static/js/*/*-component.js apps/common/static/js/learn/ebook-*.js apps/common/static/js/common/logging.js apps/common/static/js/common/utils.js apps/common/static/js/common/polyfill.js apps/common/static/js/announcements/* scripts/*"
+  },
+  "devDependencies": {
+    "acorn": "7.x.x",
+    "eslint": "^6.8.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-less": "^1.0.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-spritesmith": "^4.7.0",
+    "jit-grunt": "^0.9.1"
+  },
+  "dependencies": {
+    "fs-extra": "^9.0.0",
+    "node-sass": "^4.9.3",
+    "uglify-js": "3.8.0"
+  }
+}

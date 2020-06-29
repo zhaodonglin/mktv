@@ -1,0 +1,14 @@
+// Watch and Process SASS:
+// sass --watch apps/common/static/scss/styles_new.scss:apps/common/static/css/styles_new.css --style=compressed --source-map true
+// Or
+// node-sass --watch apps/common/static/scss/styles_new.scss apps/common/static/css/styles_new.css --output-style compressed --source-map true
+// iCheck plugin
+@import 'mixins';
+@import 'variables';
+@import 'typography';
+@import 'redesign';
+
+@import 'common';
+@import 'header';
+@import 'new-footer';
+@import 'blog';

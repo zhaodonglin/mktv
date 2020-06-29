@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block body_class %}
+    body-exception
+{% endblock body_class %}
+
+{% block title %}{{ block.super }}{% endblock title %}
+
+{% block header %}
+    <img class="logo" src="{% static 'img/logo.svg' %}" alt="">
+{% endblock header %}
+
+{% block footer %}
+{% endblock footer %}
+
+{% block content %}
+{% endblock content %}
+
+{% block modals %}
+{% endblock modals %}

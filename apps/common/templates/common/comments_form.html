@@ -1,0 +1,26 @@
+<div class="d-md-flex justify-content-between content-wrap">
+	<div class="comment-form-wrap">
+	    <form method="post" action="{{ comment_form_url }}" class="comment-form">
+		{% csrf_token %}
+		<textarea class="comment-input" placeholder="Tell us what you liked the most…" name="text"
+		          required></textarea>
+		<div class="comment-actions d-flex justify-content-between align-items-center">
+		    <div class="erase-comment-btn">Erase</div>
+		    <button type="submit" class="submit-comment-btn">COMMENT</button>
+		</div>
+	    </form>
+	</div>
+    <div class="comment-list-wrap mCustomScrollbar" data-mcs-theme="inset" data-mcs-axis="x">
+        <div class="comments-list flex-grow-1 InfiniteScroll"
+             data-loading_panel=".content-wrap"
+             data-url="{{ comment_list_url }}"
+             data-number_pages="{% if number_pages %}{{ number_pages }}{% else %}{{ paginator.num_pages }}{% endif %}"
+             data-loaded_pages="{% if loaded_pages %}{{ loaded_pages }}{% else %}1{% endif %}"
+             data-append_el=".comment"
+             data-horizontal="true" data-loading_text="false">
+            {% for comment in comments %}
+                {% include 'common/comment.html' %}
+            {% endfor %}
+        </div>
+    </div>
+</div>

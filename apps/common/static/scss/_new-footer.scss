@@ -1,0 +1,140 @@
+.new-landing-footer {
+  color: #6F6F70;
+
+  .logo-footer {
+    text-align: center;
+
+    img {
+      width: 100%;
+      max-width: 300px;
+    }
+  }
+
+  h3 {
+    font-size: 20px;
+    color: $blue;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+
+  .btn-group {
+    .download-btn {
+      > div {
+        img {
+          width: 90%;
+          max-width: 200px;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+
+  .links-wrapper {
+    margin: 30px 15%;
+    text-align: center;
+
+    ul {
+      column-count: 3;
+      list-style: none;
+    }
+
+    a {
+      font-size: 16px;
+      color: #6F6F70 !important;
+    }
+  }
+
+  .related-wrapper {
+    .kid-child {
+      img {
+        max-width: 200px;
+      }
+    }
+
+    .footer-links {
+      .item {
+        padding: 0 10px;
+
+      }
+      .tv-icons {
+        margin: 5px 0 0 5px;
+            li {
+                list-style: none;
+                display: inline;
+                margin: 0 2px;
+            }
+
+      }
+    }
+  }
+
+  #all_rights_reserved {
+    width: max-content;
+    min-height: 30px;
+    display: block;
+    margin: 50px auto 0 auto;
+
+    .reserved {
+      float: left;
+      font-size: 13px;
+      color: #4a4a4a;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .new-landing-footer {
+    .btn-group {
+      margin-top: 30px;
+    }
+
+    .links-wrapper {
+      margin: 30px 10px;
+      text-align: center;
+    }
+
+    h3 {
+      text-align: center;
+      font-size: 17px;
+    }
+
+    .related-wrapper {
+      > div {
+        margin-top: 15px;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .new-landing-footer {
+    .btn-group {
+      margin-top: 30px;
+    }
+
+    .links-wrapper {
+      margin: 30px 15%;
+    }
+
+    h3 {
+      text-align: center;
+    }
+
+    .related-wrapper {
+      > div {
+        margin-top: 15px;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .new-landing-footer {
+    .links-wrapper {
+      margin: 30px 15%;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{% extends is_mainsubpage|yesno:"empty.html,exception_base.html" %}
+{% load static %}
+
+{% block title %}{{ block.super }} > Not Found{% endblock title %}
+
+{% block content %}
+<div class="{% if not is_mainsubpage %}wrap-centered{% endif %} text-white">
+    <h1>Not found</h1>
+    <h3>Sorry, but the content you were trying to view does not exist.</h3>
+    <button class="btn btn-yellow text-dark small" onclick="window.history.back()">Go Back</button>
+</div>
+{% endblock content %}

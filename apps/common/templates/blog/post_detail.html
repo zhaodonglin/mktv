@@ -1,0 +1,39 @@
+{% extends "blog/base.html" %}
+{% load static %}
+{% load thumbnail %}
+{% load blog_tags %}
+
+{% block wrapper_class %}
+    {{ block.super }}
+{% endblock %}
+
+{% block content %}
+    <section id="post-detail-wrap">
+        <div class="post-content">
+            <div class="container">
+                <div class="row">
+                    <div class="detail-wrap">
+                        <a onclick="window.history.back()" class="back-btn">
+                            <div class="button-wrap">
+                                <i class="icon-back"></i>
+                                BACK
+                            </div>
+                        </a>
+                        <div class="title">
+                            <h4>{{ post.user_name }} - Posted on {{ post.time_stamp }}</h4>
+                            <h1>{{ post.name }}</h1>
+                        </div>
+                        <div class="content-wrap">
+                            {{ post.text|safe }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% if not request.is_cordova %}
+        <div class="comments-wrap" data-url="{% url 'blog:comment_list' post_id=post.id %}">
+            <div class="container ajax-content-wrap"></div>
+        </div>
+        {% endif %}
+    </section>
+{% endblock content %}

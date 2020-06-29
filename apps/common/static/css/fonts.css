@@ -1,0 +1,198 @@
+@font-face {
+  font-family: 'thurston_ercregular';
+  src: url('fonts/thurston_erc-webfont.eot');
+  src: url('fonts/thurston_erc-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/thurston_erc-webfont.woff2') format('woff2'), url('fonts/thurston_erc-webfont.ttf') format('truetype'), url('fonts/thurston_erc-webfont.svg#thurston_ercregular') format('svg'), url('fonts/thurston_erc-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gooddog_plainregular';
+  src: url('fonts/good-webfont.eot');
+  src: url('fonts/good-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/good-webfont.woff') format('woff'), url('fonts/good-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MP-Reg';
+  src: url('fonts/MyriadPro-Regular.eot');
+  src: url('fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'), url('fonts/MyriadPro-Regular.woff') format('woff'), url('fonts/MyriadPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MP-SbCond';
+  src: url('fonts/MyriadPro-SemiboldCond.eot');
+  src: url('fonts/MyriadPro-SemiboldCond.eot?#iefix') format('embedded-opentype'), url('fonts/MyriadPro-SemiboldCond.woff') format('woff'), url('fonts/MyriadPro-SemiboldCond.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MP-Cond';
+  src: url('fonts/MyriadPro-Cond.eot');
+  src: url('fonts/MyriadPro-Cond.eot?#iefix') format('embedded-opentype'), url('fonts/MyriadPro-Cond.woff') format('woff'), url('fonts/MyriadPro-Cond.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MP-It';
+  src: url('fonts/MyriadPro-It.eot');
+  src: url('fonts/MyriadPro-It.eot?#iefix') format('embedded-opentype'), url('fonts/MyriadPro-It.woff2') format('woff2'), url('fonts/MyriadPro-It.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MP-B';
+  src: url('fonts/MyriadPro-Bold.eot');
+  src: url('fonts/MyriadPro-Bold.eot?#iefix') format('embedded-opentype'), url('fonts/MyriadPro-Bold.woff') format('woff'), url('fonts/MyriadPro-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Scheherazade';
+  src: url(fonts/ScheherazadeRegular.ttf);
+}
+@font-face {
+  font-family: 'ChunkFive';
+  src: url(fonts/Chunkfive.otf);
+}
+@font-face {
+  font-family: 'GothamBook';
+  src: url(fonts/Gotham-Book.otf);
+}
+@font-face {
+  font-family: 'Gotham';
+  src: url(fonts/Gotham-Medium.otf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'GothamBold';
+  src: url(fonts/Gotham-Bold.otf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'GothamBlack';
+  src: url(fonts/Gotham-Black.otf);
+}
+@font-face {
+  font-family: 'Museo';
+  src: url(fonts/Museo700-Regular.otf);
+}
+@font-face {
+  font-family: 'Cabin Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cabin Condensed'), local('CabinCondensed-Regular'), url(https://fonts.gstatic.com/s/cabincondensed/v13/nwpMtK6mNhBK2err_hqkYhHRqmwqZ-LY.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Blenda Script';
+  src: url(fonts/BlendaScript.otf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Courgette';
+  src: url(fonts/Courgette-Regular.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Delius';
+  src: url(fonts/Delius-Regular.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Satisfy';
+  src: url(fonts/Satisfy-Regular.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'ShortStack';
+  src: url(fonts/ShortStack-Regular.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Marine';
+  src: url(fonts/marine-regular-up.otf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Marine';
+  src: url(fonts/marine-bold_up.otf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Marine';
+  src: url(fonts/marine-regular-italic.otf);
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Bahij Palatino Sans Arabic';
+  src: url(fonts/Bahij_Palatino_Sans_Arabic-Bold.ttf);
+  font-weight: bold;
+}
+/* Fonts below are under
+   SIL Open Font License, Version 1.1
+   Located here: fonts/SIL Open Font License 1.1.txt */
+@font-face {
+  font-family: 'BalooBhaijaan';
+  src: url(fonts/BalooBhaijaan-Regular.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Iranian Sans';
+  src: url(fonts/irsans.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Iranian Sans';
+  src: url(fonts/irsansb.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'XB Kayhan';
+  src: url(fonts/XBKayhan.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'XB Kayhan';
+  src: url(fonts/XBKayhanBd.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'XB Kayhan';
+  src: url(fonts/XBKayhanIt.ttf);
+  font-style: italic;
+}
+@font-face {
+  font-family: 'XB Kayhan';
+  src: url(fonts/XBKayhanBdIt.ttf);
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'XB Titre';
+  src: url(fonts/XBTitre.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'XB Titre';
+  src: url(fonts/XBTitreIt.ttf);
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'XB Titre';
+  src: url(fonts/XBTitre.ttf);
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'XB Titre Shadow';
+  src: url(fonts/XBTitreShadow.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'XB Titre';
+  src: url(fonts/XBTitreShadowIt.ttf);
+  font-weight: normal;
+  font-style: italic;
+}

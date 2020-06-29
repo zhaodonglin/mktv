@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg"  height="0" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style>
+        svg { -webkit-background-clip: text; }
+    </style>
+	<defs>
+		<filter id="maskfilter">
+      <feColorMatrix in="SourceAlpha"
+                   type="matrix"
+                   values="0 0 0 1 0
+                           0 0 0 1 0
+                           0 0 0 1 0
+                           0 0 0 1 0" />
+    </filter>
+
+
+
+    <mask id="mask-fans-orange">
+      <image width="250px" height="250px"  xlink:href="mask-fans-orange.png" filter="url(#maskfilter)" />
+    </mask>
+
+    <mask id="mask-set-photo">
+       <image width="222px" height="247px" xlink:href="mask-set-photo.png" filter="url(#maskfilter)" />
+    </mask>
+    
+    <mask id="mask-featured-post">
+       <image width="671px" height="326px" xlink:href="mask-featured-post.png" filter="url(#maskfilter)" />
+    </mask>
+
+    <mask id="mask-fans-aqua">
+      <image width="250px" height="250px"  xlink:href="mask-fans-aqua.png" filter="url(#maskfilter)" />
+    </mask>  
+
+    <mask id="mask-fans-purple">
+      <image width="250px" height="250px"  xlink:href="mask-fans-purple.png" filter="url(#maskfilter)" />
+    </mask>
+
+    <mask id="mask-fans-white1">
+      <image width="250px" height="250px"  xlink:href="mask-fans-white1.png" filter="url(#maskfilter)" />
+    </mask>
+
+    <mask id="mask-fans-white2">
+      <image width="250px" height="250px"  xlink:href="mask-fans-white2.png" filter="url(#maskfilter)" />
+    </mask>
+
+    <mask id="mask-fans-yellow">
+      <image width="250px" height="250px"  xlink:href="mask-fans-yellow.png" filter="url(#maskfilter)" />
+    </mask>
+
+    <mask id="mask-gal-6">
+      <image width="250px" height="250px"  xlink:href="mask-gal-6.png" filter="url(#maskfilter)" />
+    </mask>
+
+    <mask id="mask-gal-7">
+      <image width="250px" height="250px"  xlink:href="mask-gal-7.png" filter="url(#maskfilter)" />
+    </mask>
+
+    <mask id="mask-gal-8">
+      <image width="250px" height="250px"  xlink:href="mask-gal-8.png" filter="url(#maskfilter)" />
+    </mask>
+
+    <mask id="mask-fans-white">
+      <image width="250px" height="250px"  xlink:href="mask-fans-white.png" filter="url(#maskfilter)" />
+    </mask>
+
+    <mask id="mask-lines">
+      <image width="250px" height="250px"  xlink:href="mask-lines.png" filter="url(#maskfilter)" />
+    </mask>
+
+    <mask id="mask-flowers">
+      <image width="250px" height="250px"  xlink:href="mask-flowers.png" filter="url(#maskfilter)" />
+    </mask>
+
+    <mask id="mask-cicle">
+      <image width="250px" height="250px"  xlink:href="mask-cicle.png" filter="url(#maskfilter)" />
+    </mask>
+
+    <mask id="mask-gal-4">
+      <image width="500px" height="250px"  xlink:href="mask-gal-4.png" filter="url(#maskfilter)" />
+    </mask>  
+
+     <mask id="mask-gal-9">
+      <image width="250px" height="250px"  xlink:href="mask-gal-9.png" filter="url(#maskfilter)" />
+    </mask>   
+
+     <mask id="mask-gal-10">
+      <image width="250px" height="250px"  xlink:href="mask-gal-10.png" filter="url(#maskfilter)" />
+    </mask>  
+    <mask id="mask-gal-11">
+      <image width="250px" height="250px"  xlink:href="mask-gal-11.png" filter="url(#maskfilter)" />
+    </mask>  
+    <mask id="mask-gal-13">
+      <image width="500px" height="250px"   xlink:href="mask-gal-13.png" filter="url(#maskfilter)" />
+    </mask>  
+    <mask id="mask-gal-15">
+      <image width="250px" height="250px"   xlink:href="mask-gal-15.png" filter="url(#maskfilter)" />
+    </mask>  
+    <mask id="mask-gal-16">
+      <image width="250px" height="250px"   xlink:href="mask-gal-16.png" filter="url(#maskfilter)" />
+    </mask>  
+    <mask id="mask-gal-17">
+      <image width="750px" height="250px"   xlink:href="mask-gal-17.png" filter="url(#maskfilter)" />
+    </mask>  
+    <mask id="mask-fans-white4">
+      <image width="250px" height="250px"  xlink:href="mask-fans-white4.png" filter="url(#maskfilter)" />
+    </mask> 
+
+    <mask id="mask-fans-white5">
+      <image width="250px" height="250px" xlink:href="mask-fans-white5.png" filter="url(#maskfilter)" />
+    </mask>
+
+    
+
+        
+
+    <mask id="mask-contest">
+       <image width="412px" height="266px" xlink:href="mask-contest.png" filter="url(#maskfilter)" />
+    </mask>
+    <mask id="mask-contest-large">
+       <image width="483px" height="311px" xlink:href="mask-contest-large.png" filter="url(#maskfilter)" />
+    </mask>
+    <mask id="mask-contest-medium">
+       <image width="350px" height="225px" xlink:href="mask-contest-medium.png" filter="url(#maskfilter)" />
+    </mask>
+    <mask id="mask-contest-small">
+       <image width="224px" height="145px" xlink:href="mask-contest-small.png" filter="url(#maskfilter)" />
+    </mask>
+
+    <mask id="mask-after-wrap">
+       <image width="412px" height="266px" xlink:href="mask-after-wrap.png" filter="url(#maskfilter)" />
+    </mask>
+
+
+
+	</defs>
+	
+</svg>
+
+

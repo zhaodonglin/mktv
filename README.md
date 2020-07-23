@@ -21,6 +21,10 @@
     * If you are on Windows, install [Cygwin](https://cygwin.com/install.html) for ssh capabilities.
 * Build and enter the virtual machine:
     * From the root of the project, run: `vagrant up`
+        * If you are on Windows, Vagrant might not be successful in provisioning in which case you will see these lines in the command line:
+          `default: Starting Vagrant provisioning process...
+           default: /tmp/vagrant-shell: /vagrant/sh/core.sh: /bin/bash^M: bad interpreter: No such file or directory`
+          You can ignore this for now. We will deal with it in the next step.
     * To ssh into the vm created, run: `vagrant ssh`
 * Proceed to:
     * [Setup the development environment inside the virtual machine](#markdown-header-virtual-machine-setup)
@@ -29,9 +33,11 @@
 
 * Setup
     * Make sure you are in the project folder: `cd /vagrant/` (Vagrant maps this directory in the virtual machine to the project directory on your local machine and syncs it automatically)
+    * If you are Windows and Vagrant provisioning was unsuccessful in the Vagrant setup step, please do the following:
+        * Change the file format of the /sh/core.sh file using [this](https://coderwall.com/p/qgyqfw/fixing-vagrant-on-windows-bin-sh-m-bad-interpreter)
+        * Run `./sh/core.sh`
     * Run `make`
-    * Create a database user: `sudo -u postgres createuser <name> -s`
-    * Go to settings/local.py and change the database user name to the above
+    * Create a database user: `sudo -u postgres createuser vagrant -s`
     * Run `make database`
 * Proceed to:
     * [Working in the virtual machine](#markdown-header-working-in-the-virtual-machine)

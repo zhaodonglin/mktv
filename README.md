@@ -53,8 +53,9 @@
 ## Run Server
 
 * Run: `python manage.py runserver 0.0.0.0:8000`
-    * visit http://localhost:8000 or http://localhost:8000/admin
-* login to the admin portal using the admin username and password you specified during the initial setup
+* Visit http://127.0.0.1:8000 or http://localhost:8000
+* For the admin portal, visit http://127.0.0.1:8000/admin or http://localhost:8000/admin
+    * login to the admin portal using the admin username and password you specified during the initial setup
 
 **Important**: If the site does not display properly, make sure you have compiled the css using the command below.
 

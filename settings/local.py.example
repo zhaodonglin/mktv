@@ -27,8 +27,8 @@ else:
         'default': {
             'ENGINE': 'django.db.backends.postgresql_psycopg2',
             'NAME': 'mktv',
-            'USER': 'postgres',
-            'PASSWORD': 'p'
+            'USER': 'vagrant',
+            'PASSWORD': ''
         }
     }
 

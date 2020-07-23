@@ -69,4 +69,10 @@ To start a service that automatically compiles scss files to css after file modi
 ```
 npm run scss
 ```
-Note: If you get an error about a package/script not being found, try running `npm install` 
+Note: If you do not have npm installed, run:
+```
+sudo apt-get update
+sudo apt-get install nodejs
+sudo apt-get install npm
+```
+Note: If you get an error about a package/script not being found, try running `npm install`

@@ -17,7 +17,6 @@ THIRD_PARTY_APPS = (
     'sorl.thumbnail',
     'constance',
     'constance.backends.database',
-    'django_select2',
     'storages',
     'file_resubmit',
 )

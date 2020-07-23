@@ -49,6 +49,7 @@ loaddata:
 	@echo "Loading additional data fixtures"
 	@python manage.py filldb
 	@python manage.py loaddata initial_data.json
+	@echo "Creating superuser (admin account)"
 	@python manage.py createsuperuser
 
 run:

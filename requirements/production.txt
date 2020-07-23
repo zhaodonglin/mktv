@@ -25,6 +25,5 @@ pyfcm==1.2.1
 requests==2.13.0
 requests-oauthlib==0.8.0
 mock==2.0.0
-beautifulsoup4==4.7.1
 django-file-resubmit==0.5.2
 django-redis==4.10.0

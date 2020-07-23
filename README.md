@@ -41,7 +41,7 @@
 * Make sure you are in the project folder: `cd /vagrant/`
 * [Run the Server](#markdown-header-run-server)
 * You can use any editor to modify the files in the project on your machine and the changes will be synced to the vagrant virtual machine.
-* To close the virtual machine, do `logout` and then `vagrant destroy`
+* To leave the virtual machine, do `logout`
 
 ## Run Server
 

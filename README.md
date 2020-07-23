@@ -20,6 +20,7 @@
     * Download and install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
     * If you are on Windows, install [Cygwin](https://cygwin.com/install.html) for ssh capabilities.
 * Build and enter the virtual machine:
+    * \[Windows] Run Command Prompt as administrator.
     * From the root of the project, run: `vagrant up`
         * If you are on Windows, Vagrant might not be successful in provisioning in which case you will see these lines in the command line:
           `default: Starting Vagrant provisioning process...
@@ -43,7 +44,8 @@
     * [Working in the virtual machine](#markdown-header-working-in-the-virtual-machine)
 
 ## Working in the virtual machine
-* Whenever you start working, enter the virtual machine: `vagrant ssh`
+* \[Windows] Run Command Prompt as administrator.
+* From the root of the project folder, enter the virtual machine: `vagrant ssh`
 * Make sure you are in the project folder: `cd /vagrant/`
 * [Run the Server](#markdown-header-run-server)
 * You can use any editor to modify the files in the project on your machine and the changes will be synced to the vagrant virtual machine.
@@ -75,4 +77,4 @@ sudo apt-get update
 sudo apt-get install nodejs
 sudo apt-get install npm
 ```
-Note: If you get an error about a package/script not being found, try running `npm install`
+Note: If you get an error about a package/script not being found, try running `sudo npm install`

@@ -50,7 +50,7 @@
 * [Run the Server](#markdown-header-run-server)
 * You can use any editor to modify the files in the project on your machine and the changes will be synced to the vagrant virtual machine.
 * To leave the virtual machine, do `logout`
-    * Now, from your command line, do `vagrant suspend` to suspend the vm, `vagrant halt` to shut it down and `vagrant destroy` to remove all traces of the vm from your system.
+    * Now, from your command line, do `vagrant suspend` to suspend the vm or `vagrant halt` to shut it down. You can use `vagrant destroy` once you no longer need the vm to remove all traces of the vm from your system.
 
 ## Run Server
 

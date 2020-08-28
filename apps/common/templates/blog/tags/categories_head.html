@@ -1,0 +1,22 @@
+{%if categories%}
+
+<div class="dropdown sub-category">
+    <button class="btn btn-secondary sub-category-button dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         {{category_name}} 
+    </button>
+    <div class="dropdown-menu category-list dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+        <div >
+            <a class="category-item" href="{{ category.get_single_page_url }}">
+                All
+            </a>
+        </div>
+        {% for one_category in categories %}
+            <div >
+                <a class="category-item" href="{{ one_category.get_single_page_url }}">
+                    {{ one_category }}
+                </a>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+{%endif%}

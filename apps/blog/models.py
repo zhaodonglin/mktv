@@ -5,6 +5,7 @@ from django.db import models
 from django.utils import timezone
 from django.utils.translation import ugettext_lazy as _
 from django.conf import settings
+from mptt.models import MPTTModel, TreeForeignKey
 
 from ckeditor.fields import RichTextField
 from sorl.thumbnail import ImageField, get_thumbnail
@@ -21,15 +22,17 @@ thumbnail_storage = storage_factory(
     settings.THUMBNAIL_URL)
 
 
-class Category(models.Model):
+class Category(MPTTModel):
     name = models.CharField(max_length=255, verbose_name=_('name'))
     slug = models.SlugField(unique=True)
-    thumbnail = ImageField(verbose_name=_('category_img'), upload_to=image_path, storage=thumbnail_storage, null=True)
+    parent = TreeForeignKey('self', null=True, blank=True, related_name='children', db_index=True)
+    thumbnail = ImageField(verbose_name=_('category_img'), upload_to=image_path, storage=thumbnail_storage, null=True, blank=True)
 
     def __unicode__(self):
         return self.name
 
     class Meta:
+        unique_together = (('parent', 'slug',))
         verbose_name = _('Category')
         verbose_name_plural = _('Category')
 
@@ -59,6 +62,9 @@ class Category(models.Model):
             return 'img/category-kids.png'
         elif 'Teachers' in self.name:
             return 'img/category-teachers.png'
+    
+    class MPTTMeta:
+        order_insertion_by = ['name']
 
 class PostManager(models.Manager):
 
@@ -68,7 +74,7 @@ class PostManager(models.Manager):
 
 class Post(models.Model):
     name = models.CharField(max_length=255, verbose_name=_('name'))
-    category = models.ForeignKey(Category, verbose_name=_('category'), related_name='posts')
+    category = TreeForeignKey('Category',null=True,blank=True, verbose_name=_('category'), related_name='posts')
     user_name = models.CharField(verbose_name=_('author'), max_length=100)
     avatar = ImageField(verbose_name=_('avatar'), upload_to=image_path, storage=avatar_storage, null=True)
     short_description = models.CharField(verbose_name=_('short description'), max_length=200)

@@ -19,6 +19,7 @@ THIRD_PARTY_APPS = (
     'constance.backends.database',
     'storages',
     'file_resubmit',
+    'mptt',
 )
 
 PROJECT_APPS = (
@@ -27,4 +28,4 @@ PROJECT_APPS = (
 )
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + PROJECT_APPS
-
+MPTT_ADMIN_LEVEL_INDENT = 20

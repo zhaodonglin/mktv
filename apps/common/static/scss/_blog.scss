@@ -395,6 +395,27 @@
             margin: 0px;
           }
 
+          .sub-category {
+            .sub-category-button {
+              font-size: 30px;
+              background-color:transparent;
+              &:hover {
+                color: white;
+                background: #AB7D09;
+              };
+            }
+            .category-list {
+              background: transparent;
+              .category-item {
+                font-size: 25px;
+                background: transparent;
+                padding-left:20px;
+                padding-right:20px;
+                color:#2d74c8;
+              }
+            }
+          }
+
           .category-filter {
             select {
               @include border-radius(10px);

@@ -5,7 +5,11 @@
   "fields": {
     "name": "Latest News",
     "slug": "latest-news",
-    "thumbnail": ""
+    "thumbnail": "",
+    "level":0,
+    "lft":1,
+    "rght":2,
+    "tree_id":2
   }
 },
 {
@@ -14,7 +18,11 @@
   "fields": {
     "name": "Teachers and Parents",
     "slug": "teachers",
-    "thumbnail": ""
+    "thumbnail": "",
+    "level":0,
+    "lft":1,
+    "rght":2,
+    "tree_id":3
   }
 },
 {
@@ -23,7 +31,11 @@
   "fields": {
     "name": "Kids Work",
     "slug": "kids-work",
-    "thumbnail": ""
+    "thumbnail": "",
+    "level":0,
+    "lft":1,
+    "rght":2,
+    "tree_id":0
   }
 },
 {
